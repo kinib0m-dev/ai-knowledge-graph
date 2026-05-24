@@ -1,0 +1,124 @@
+@prefix activity: <http://example.org/aikg/prov/activity/> .
+@prefix agent: <http://example.org/aikg/prov/agent/> .
+@prefix entity: <http://example.org/aikg/prov/entity/> .
+@prefix ex: <http://example.org/aikg/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+entity:knowledge_graph_ttl a prov:Entity ;
+    rdfs:label "RDF Knowledge Graph (Turtle)"^^xsd:string ;
+    ex:format "text/turtle"^^xsd:string ;
+    ex:path "data/knowledge_graph.ttl"^^xsd:string ;
+    ex:triples "2151"^^xsd:int ;
+    prov:wasGeneratedBy activity:kg_construction .
+
+activity:grobid_extraction a prov:Activity ;
+    rdfs:label "Grobid PDF parsing"^^xsd:string ;
+    ex:script "scripts/process_grobid.py"^^xsd:string ;
+    ex:tool "lfoppiano/grobid:0.8.2"^^xsd:string ;
+    prov:endedAtTime "2026-05-01T10:15:00+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2026-05-01T10:00:00+00:00"^^xsd:dateTime ;
+    prov:used entity:input_pdfs ;
+    prov:wasAssociatedWith agent:researcher .
+
+activity:kg_construction a prov:Activity ;
+    rdfs:label "Knowledge Graph construction and enrichment"^^xsd:string ;
+    ex:enrichment1 "OpenAlex API"^^xsd:string ;
+    ex:enrichment2 "Wikidata SPARQL"^^xsd:string ;
+    ex:script "scripts/build_kg.py"^^xsd:string ;
+    prov:endedAtTime "2026-05-01T12:10:00+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2026-05-01T12:00:00+00:00"^^xsd:dateTime ;
+    prov:used entity:ner_results_json,
+        entity:papers_json,
+        entity:similarity_results_json,
+        entity:topic_results_json ;
+    prov:wasAssociatedWith agent:researcher .
+
+activity:model_evaluation a prov:Activity ;
+    rdfs:label "NLP model evaluation against gold standard"^^xsd:string ;
+    ex:script "scripts/evaluate_models.py"^^xsd:string ;
+    prov:endedAtTime "2026-05-01T10:50:00+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2026-05-01T10:20:00+00:00"^^xsd:dateTime ;
+    prov:used entity:gold_standard,
+        entity:papers_json ;
+    prov:wasAssociatedWith agent:researcher .
+
+activity:ner_extraction a prov:Activity ;
+    rdfs:label "Named entity recognition on all 30 papers"^^xsd:string ;
+    ex:model "Jean-Baptiste/roberta-large-ner-english"^^xsd:string ;
+    ex:script "scripts/ner.py"^^xsd:string ;
+    prov:endedAtTime "2026-05-01T11:20:00+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2026-05-01T11:00:00+00:00"^^xsd:dateTime ;
+    prov:used entity:papers_json ;
+    prov:wasAssociatedWith agent:researcher .
+
+activity:similarity_computation a prov:Activity ;
+    rdfs:label "Pairwise semantic similarity on all 30 papers"^^xsd:string ;
+    ex:model "sentence-transformers/all-mpnet-base-v2"^^xsd:string ;
+    ex:script "scripts/similarity.py"^^xsd:string ;
+    prov:endedAtTime "2026-05-01T11:55:00+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2026-05-01T11:35:00+00:00"^^xsd:dateTime ;
+    prov:used entity:papers_json ;
+    prov:wasAssociatedWith agent:researcher .
+
+activity:topic_classification a prov:Activity ;
+    rdfs:label "Zero-shot topic classification on all 30 papers"^^xsd:string ;
+    ex:model "facebook/bart-large-mnli"^^xsd:string ;
+    ex:script "scripts/topics.py"^^xsd:string ;
+    prov:endedAtTime "2026-05-01T11:35:00+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2026-05-01T11:20:00+00:00"^^xsd:dateTime ;
+    prov:used entity:papers_json ;
+    prov:wasAssociatedWith agent:researcher .
+
+entity:gold_standard a prov:Entity ;
+    rdfs:label "Gold standard annotations (10 papers)"^^xsd:string ;
+    ex:path "data/gold_standard.json"^^xsd:string .
+
+entity:input_pdfs a prov:Entity,
+        "prov:Collection"^^xsd:string ;
+    rdfs:label "30 ArXiv AI/ML PDFs"^^xsd:string ;
+    ex:paperCount "30"^^xsd:int ;
+    ex:source "https://arxiv.org"^^xsd:string .
+
+entity:ner_results_json a prov:Entity ;
+    rdfs:label "NER results"^^xsd:string ;
+    ex:f1 4.69e-01 ;
+    ex:model "Jean-Baptiste/roberta-large-ner-english"^^xsd:string ;
+    ex:path "data/processed/ner_results.json"^^xsd:string ;
+    prov:wasDerivedFrom entity:model_evaluation_json ;
+    prov:wasGeneratedBy activity:ner_extraction .
+
+entity:similarity_results_json a prov:Entity ;
+    rdfs:label "Similarity results"^^xsd:string ;
+    ex:model "sentence-transformers/all-mpnet-base-v2"^^xsd:string ;
+    ex:path "data/processed/similarity_results.json"^^xsd:string ;
+    ex:similarPairs "178"^^xsd:int ;
+    ex:threshold 3.5e-01 ;
+    ex:totalPairs "406"^^xsd:int ;
+    prov:wasDerivedFrom entity:model_evaluation_json ;
+    prov:wasGeneratedBy activity:similarity_computation .
+
+entity:topic_results_json a prov:Entity ;
+    rdfs:label "Topic classification results"^^xsd:string ;
+    ex:accuracy 6e-01 ;
+    ex:model "facebook/bart-large-mnli"^^xsd:string ;
+    ex:path "data/processed/topic_results.json"^^xsd:string ;
+    prov:wasDerivedFrom entity:model_evaluation_json ;
+    prov:wasGeneratedBy activity:topic_classification .
+
+entity:model_evaluation_json a prov:Entity ;
+    rdfs:label "Model evaluation results"^^xsd:string ;
+    ex:path "data/processed/model_evaluation.json"^^xsd:string ;
+    prov:wasGeneratedBy activity:model_evaluation .
+
+entity:papers_json a prov:Entity ;
+    rdfs:label "Extracted paper metadata"^^xsd:string ;
+    ex:path "data/processed/papers.json"^^xsd:string ;
+    ex:records "30"^^xsd:int ;
+    prov:wasGeneratedBy activity:grobid_extraction .
+
+agent:researcher a prov:Agent ;
+    foaf:name "AI Research KG Group"^^xsd:string .
+

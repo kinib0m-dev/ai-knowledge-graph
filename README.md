@@ -1,5 +1,7 @@
 # AI/ML Research Knowledge Graph
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A reproducible open science pipeline that processes 30 landmark AI/ML papers, runs NLP models on them, and builds a Knowledge Graph in RDF. Built as Deliverable 2 for the _Open Science and AI in Research Software Engineering_ course at Universidad Politécnica de Madrid.
 
 ---
@@ -20,7 +22,7 @@ PDFs → Grobid → NLP models (HuggingFace) → RDF Knowledge Graph → Fuseki 
 
 **External enrichment:**
 
-- [OpenAlex API](https://openalex.org/) — citation count, publication year, venue
+- [OpenAlex API](https://openalex.org/) — citation count, publication year, venue, OpenAlex ID
 - [Wikidata SPARQL](https://query.wikidata.org/) — country and website of organisations
 
 ---
@@ -36,7 +38,7 @@ PDFs → Grobid → NLP models (HuggingFace) → RDF Knowledge Graph → Fuseki 
 ## Installation
 
 ```bash
-git clone https://github.com/<your-org>/ai-knowledge-graph.git
+git clone https://github.com/kinib0m-dev/ai-knowledge-graph.git
 cd ai-knowledge-graph
 poetry install --no-root
 ```
@@ -101,8 +103,21 @@ Outputs: `data/knowledge_graph.ttl`
 
 ```bash
 docker compose up -d
+# Create dataset and upload TTL:
+curl -u admin:admin -X POST http://localhost:3030/$/datasets -d "dbName=papers&dbType=tdb2"
+curl -u admin:admin -X PUT http://localhost:3030/papers/data \
+  -H "Content-Type: text/turtle" --data-binary @data/knowledge_graph.ttl
+# Start app:
 poetry run streamlit run app/streamlit_app.py
 ```
+
+### 7. Generate provenance record
+
+```bash
+poetry run python scripts/generate_provenance.py
+```
+
+Outputs: `provenance/sample_run.ttl`
 
 ---
 
@@ -111,48 +126,79 @@ poetry run streamlit run app/streamlit_app.py
 ```
 ai-knowledge-graph/
 ├── scripts/
-│   ├── papers.py             # Download PDFs from ArXiv
-│   ├── process_grobid.py     # Parse TEI XML from Grobid
-│   ├── evaluate_models.py    # Evaluate candidate NLP models against gold standard
-│   ├── topics.py             # Zero-shot topic classification (bart-large-mnli)
-│   ├── similarity.py         # Pairwise semantic similarity (all-mpnet-base-v2)
-│   ├── ner.py                # Named entity recognition (roberta-large-ner-english)
-│   └── build_kg.py           # Build and serialise the RDF Knowledge Graph
+│   ├── papers.py               # Download PDFs from ArXiv
+│   ├── process_grobid.py       # Parse TEI XML from Grobid
+│   ├── evaluate_models.py      # Evaluate candidate NLP models against gold standard
+│   ├── topics.py               # Zero-shot topic classification
+│   ├── similarity.py           # Pairwise semantic similarity
+│   ├── ner.py                  # Named entity recognition
+│   ├── build_kg.py             # Build and serialise the RDF Knowledge Graph
+│   └── generate_provenance.py  # Generate PROV-O provenance record
 ├── app/
-│   └── streamlit_app.py      # Interactive demo (Research Radar + Landscape Explorer)
+│   └── streamlit_app.py        # Interactive demo (Research Radar + Landscape Explorer)
 ├── data/
-│   ├── papers/               # Downloaded PDFs (not tracked in git)
-│   ├── grobid_output/        # TEI XML files (not tracked in git)
-│   ├── gold_standard.json    # Manual annotations for 10 papers
-│   ├── processed/            # JSON outputs of each pipeline stage
-│   └── knowledge_graph.ttl   # Final RDF output
+│   ├── papers/                 # Downloaded PDFs (not tracked in git)
+│   ├── grobid_output/          # TEI XML files (not tracked in git)
+│   ├── gold_standard.json      # Manual annotations for 10 papers
+│   ├── processed/              # JSON outputs of each pipeline stage
+│   └── knowledge_graph.ttl     # Final RDF output
 ├── provenance/
-│   └── sample_run.ttl        # PROV-O record of one pipeline execution
+│   └── sample_run.ttl          # PROV-O record of one pipeline execution
 ├── tests/
+├── docker-compose.yml
 ├── pyproject.toml
-└── ro-crate-metadata.json    # RO-Crate research object metadata
+└── ro-crate-metadata.json      # RO-Crate research object metadata
 ```
 
 ---
 
 ## Knowledge Graph model
 
-Base terms: `Paper`, `Person`, `Organization`, `Topic`
+### Terms
 
-Base properties: `ex:belongsToTopic`, `ex:similarTo`, `dc:title`, `foaf:name`, `ex:acknowledges`
+| Term                     | Type  | Description                                    |
+| ------------------------ | ----- | ---------------------------------------------- |
+| `ex:Paper`               | Class | An AI/ML research paper                        |
+| `foaf:Person`            | Class | A person acknowledged in a paper               |
+| `org:Organization`       | Class | An organisation acknowledged in a paper        |
+| `skos:Concept`           | Class | A research topic                               |
+| `ex:SimilarityStatement` | Class | Reified similarity relation between two papers |
 
-External properties (≥5 from external KGs):
+### Properties
 
-| Property           | Source          | Type |
-| ------------------ | --------------- | ---- |
-| `ex:citationCount` | OpenAlex API    | API  |
-| `dc:date` (year)   | OpenAlex API    | API  |
-| `ex:venue`         | OpenAlex API    | API  |
-| `ex:openalexId`    | OpenAlex API    | API  |
-| `ex:country`       | Wikidata SPARQL | RDF  |
-| `foaf:homepage`    | Wikidata SPARQL | RDF  |
+**Base properties (required by spec):**
 
-Namespaces used: `dc`, `foaf`, `skos`, `org`, `owl`, `xsd`, and a custom `ex:` namespace.
+| Property            | Domain → Range        | Description                                |
+| ------------------- | --------------------- | ------------------------------------------ |
+| `ex:belongsToTopic` | Paper → Topic         | Topic assigned by zero-shot classification |
+| `ex:similarTo`      | Paper → Paper         | Direct similarity edge (above threshold)   |
+| `dc:title`          | Paper → string        | Paper title                                |
+| `foaf:name`         | Person / Org → string | Entity name                                |
+| `ex:acknowledges`   | Paper → Person / Org  | Entities extracted from acknowledgements   |
+
+**Additional properties:**
+
+| Property                  | Domain → Range                | Description                 |
+| ------------------------- | ----------------------------- | --------------------------- |
+| `dc:identifier`           | Paper → string                | ArXiv ID                    |
+| `dc:description`          | Paper → string                | Abstract                    |
+| `dc:creator`              | Paper → string                | Author names                |
+| `owl:sameAs`              | Paper → URI                   | Link to ArXiv abstract page |
+| `ex:paper1` / `ex:paper2` | SimilarityStatement → Paper   | Papers in a similarity pair |
+| `ex:similarityScore`      | SimilarityStatement → decimal | Cosine similarity score     |
+
+**External properties (≥5 from external KGs):**
+
+| Property           | Domain → Range        | Source          | Type |
+| ------------------ | --------------------- | --------------- | ---- |
+| `ex:citationCount` | Paper → integer       | OpenAlex API    | API  |
+| `dc:date`          | Paper → gYear         | OpenAlex API    | API  |
+| `ex:venue`         | Paper → string        | OpenAlex API    | API  |
+| `ex:openalexId`    | Paper → URI           | OpenAlex API    | API  |
+| `ex:country`       | Organization → string | Wikidata SPARQL | RDF  |
+| `foaf:homepage`    | Organization → URI    | Wikidata SPARQL | RDF  |
+
+**Namespaces:** `dc`, `foaf`, `skos`, `org`, `owl`, `xsd`, and custom `ex: <http://example.org/aikg/>`
 
 ---
 
