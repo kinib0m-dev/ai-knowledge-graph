@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1406.2661",
+    "title": "Generative Adversarial Nets",
+    "topic": "Generative Models",
+    "entities": {
+      "PER": ["Frédéric Bastien", "Arnaud Bergeron", "Patrice Marcotte", "Olivier Delalleau", "Kyunghyun Cho", "Guillaume Alain", "Jason Yosinski", "Yann Dauphin", "Ian Goodfellow"],
+      "ORG": ["CIFAR", "Canada Research Chairs", "Compute Canada", "Calcul Québec", "Google"],
+      "PROJECT": ["2013 Google Fellowship in Deep Learning"]
+    },
+    "similar_to": ["2006.11239", "2105.05233", "2112.10752"]
+  },
+  {
+    "id": "1412.6980",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "topic": "Optimization & Training",
+    "entities": {
+      "PER": ["Ivo Danihelka", "Tom Schaul", "Kai Fan", "Diederik Kingma"],
+      "ORG": ["Google Deepmind", "Duke University", "SURF Foundation"],
+      "PROJECT": ["Google European Doctorate Fellowship in Deep Learning"]
+    },
+    "similar_to": ["1207.0580", "1706.03762"]
+  },
+  {
+    "id": "2005.14165",
+    "title": "Language Models are Few-Shot Learners",
+    "topic": "Language Models",
+    "entities": {
+      "PER": ["Ryan Lowe", "Jakub Pachocki", "Szymon Sidor", "Greg Brockman", "Michael Petrov", "Brooke Chan", "Chelsea Voss", "David Luan", "Irene Solaiman", "Harrison Edwards", "Yura Burda", "Geoffrey Irving", "Paul Christiano", "Long Ouyang", "Chris Hallacy", "Shan Carter"],
+      "ORG": ["OpenAI"],
+      "PROJECT": []
+    },
+    "similar_to": ["1810.04805", "2203.02155", "2302.13971", "2307.09288"]
+  },
+  {
+    "id": "2006.11239",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "topic": "Generative Models",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    },
+    "similar_to": ["1406.2661", "2105.05233", "2112.10752"]
+  },
+  {
+    "id": "2010.11929",
+    "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+    "topic": "Computer Vision",
+    "entities": {
+      "PER": ["Lucas Beyer", "Xiaohua Zhai", "Thomas Unterthiner", "Mostafa Dehghani", "Matthias Minderer", "Georg Heigold", "Sylvain Gelly", "Jakob Uszkoreit"],
+      "ORG": ["Google Research", "Google Brain"],
+      "PROJECT": []
+    },
+    "similar_to": ["1512.03385", "1506.01497", "1706.03762"]
+  },
+  {
+    "id": "2103.00020",
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "topic": "Computer Vision",
+    "entities": {
+      "PER": ["Alec Radford", "Jong Wook Kim", "Chris Hallacy", "Aditya Ramesh", "Gabriel Goh", "Sandhini Agarwal", "Girish Sastry", "Amanda Askell", "Pamela Mishkin", "Jack Clark", "Gretchen Krueger", "Ilya Sutskever"],
+      "ORG": ["OpenAI"],
+      "PROJECT": []
+    },
+    "similar_to": ["2010.11929", "2309.17421", "2208.01618"]
+  },
+  {
+    "id": "2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "topic": "Language Models",
+    "entities": {
+      "PER": ["Lilian Weng", "Jason Kwon", "Boris Power", "Miles Brundage", "Tyna Eloundou", "Gillian Hadfield", "Alec Radford", "Sam Bowman", "Owain Evans", "Stephanie Lin", "Daniel Ziegler", "William Saunders", "Greg Brockman"],
+      "ORG": ["OpenAI"],
+      "PROJECT": []
+    },
+    "similar_to": ["2005.14165", "2212.08073", "2302.13971"]
+  },
+  {
+    "id": "2204.05149",
+    "title": "The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",
+    "topic": "AI Safety & Ethics",
+    "entities": {
+      "PER": ["Emma Strubell", "Christopher Berner", "Ilya Sutskever", "Dmitry Lepikhin", "Zongwei Zhou", "Hallie Cramer", "Anna Escuer", "Elke Michlmayr", "Kelli Wright", "Nick Zakrasek", "Talia Ringer"],
+      "ORG": ["OpenAI", "Microsoft", "Google"],
+      "PROJECT": []
+    },
+    "similar_to": ["2212.08073", "2109.13916"]
+  },
+  {
+    "id": "2212.08073",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "topic": "AI Safety & Ethics",
+    "entities": {
+      "PER": ["Jared Kaplan", "Tom Brown", "Sam Bowman", "Ethan Perez", "Saurav Kadavath"],
+      "ORG": ["Anthropic"],
+      "PROJECT": []
+    },
+    "similar_to": ["2203.02155", "2109.13916", "2204.05149"]
+  },
+  {
+    "id": "2309.17421",
+    "title": "The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)",
+    "topic": "Language Models",
+    "entities": {
+      "PER": ["Misha Bilenko", "John Montgomery", "Marco Casalaina", "Gregory Buehrer", "Nguyen Bach", "Gopi Kumar", "Luis Vargas", "Kun Wu", "Jianfeng Gao", "Ce Liu", "Michael Zeng", "Yingkai Yu"],
+      "ORG": ["OpenAI", "Microsoft"],
+      "PROJECT": []
+    },
+    "similar_to": ["2103.00020", "2005.14165", "2301.13688"]
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "ner": [
+    {
+      "model": "dslim/bert-base-NER",
+      "precision": 0.228,
+      "recall": 0.312,
+      "f1": 0.264
+    },
+    {
+      "model": "Jean-Baptiste/roberta-large-ner-english",
+      "precision": 0.481,
+      "recall": 0.459,
+      "f1": 0.469
+    }
+  ],
+  "topic": [
+    {
+      "model": "facebook/bart-large-mnli",
+      "accuracy": 0.6,
+      "correct": 6,
+      "total": 10
+    },
+    {
+      "model": "typeform/distilbert-base-uncased-mnli",
+      "accuracy": 0.5,
+      "correct": 5,
+      "total": 10
+    }
+  ],
+  "similarity": [
+    {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "precision": 1.0,
+      "recall": 0.143,
+      "f1": 0.25
+    },
+    {
+      "model": "sentence-transformers/all-mpnet-base-v2",
+      "precision": 0.5,
+      "recall": 0.286,
+      "f1": 0.364
+    }
+  ]
+}

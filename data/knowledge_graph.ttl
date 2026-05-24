@@ -1,0 +1,2543 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ex: <http://example.org/aikg/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/aikg/paper/1803.09010> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/person/Alain_Couillault>,
+        <http://example.org/aikg/person/Amanda_Casari>,
+        <http://example.org/aikg/person/Andy_Hickl>,
+        <http://example.org/aikg/person/Emily_Bender>,
+        <http://example.org/aikg/person/Eric_Charran>,
+        <http://example.org/aikg/person/Eric_Horvitz>,
+        <http://example.org/aikg/person/Joy_Buolamwini>,
+        <http://example.org/aikg/person/Leigh_Dodds>,
+        <http://example.org/aikg/person/Lukas_Dauterman>,
+        <http://example.org/aikg/person/Martin_Hansen>,
+        <http://example.org/aikg/person/Michael_Ekstrand>,
+        <http://example.org/aikg/person/Michael_Golebiewski>,
+        <http://example.org/aikg/person/Michael_Hoffman>,
+        <http://example.org/aikg/person/Mingjing_Huang>,
+        <http://example.org/aikg/person/Miroslav_Dudík>,
+        <http://example.org/aikg/person/Nick_Gonsalves>,
+        <http://example.org/aikg/person/Noémie_Elhadad>,
+        <http://example.org/aikg/person/Peter_Bailey>,
+        <http://example.org/aikg/person/Sarah_Bird>,
+        <http://example.org/aikg/person/Sarah_Brown>,
+        <http://example.org/aikg/person/Scott_Hoogerwerf>,
+        <http://example.org/aikg/person/Steven_Bowles>,
+        <http://example.org/aikg/person/Surya>,
+        <http://example.org/aikg/person/Yoshua_Bengio> ;
+    dc:creator "Black In Ai",
+        "Briana Vecchione",
+        "Hal Daumé",
+        "Hanna Wallach",
+        "Jamie Morgenstern",
+        "Jennifer Vaughan",
+        "Jennifer Wortman Vaughan",
+        "Kate Crawford",
+        "Microsoft Research",
+        "Timnit Gebru" ;
+    dc:identifier "1803.09010" ;
+    dc:title "Datasheets for Datasets" ;
+    owl:sameAs <https://arxiv.org/abs/1803.09010> .
+
+<http://example.org/aikg/similarity/1207.0580_1312.5602> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/1312.5602> ;
+    ex:similarityScore 0.3828 .
+
+<http://example.org/aikg/similarity/1207.0580_1406.2661> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/1406.2661> ;
+    ex:similarityScore 0.3728 .
+
+<http://example.org/aikg/similarity/1207.0580_1505.04597> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/1505.04597> ;
+    ex:similarityScore 0.3915 .
+
+<http://example.org/aikg/similarity/1207.0580_1506.01497> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/1506.01497> ;
+    ex:similarityScore 0.3545 .
+
+<http://example.org/aikg/similarity/1207.0580_1512.03385> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/1512.03385> ;
+    ex:similarityScore 0.4911 .
+
+<http://example.org/aikg/similarity/1207.0580_1706.03762> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/1706.03762> ;
+    ex:similarityScore 0.428 .
+
+<http://example.org/aikg/similarity/1207.0580_1810.04805> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/1810.04805> ;
+    ex:similarityScore 0.4101 .
+
+<http://example.org/aikg/similarity/1207.0580_2004.10934> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/2004.10934> ;
+    ex:similarityScore 0.5827 .
+
+<http://example.org/aikg/similarity/1207.0580_2005.12729> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.12729> ;
+    ex:similarityScore 0.3667 .
+
+<http://example.org/aikg/similarity/1207.0580_2005.14165> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.14165> ;
+    ex:similarityScore 0.4247 .
+
+<http://example.org/aikg/similarity/1207.0580_2010.11929> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/2010.11929> ;
+    ex:similarityScore 0.4055 .
+
+<http://example.org/aikg/similarity/1207.0580_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.487 .
+
+<http://example.org/aikg/similarity/1207.0580_2109.13916> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/2109.13916> ;
+    ex:similarityScore 0.3966 .
+
+<http://example.org/aikg/similarity/1207.0580_2204.05149> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/2204.05149> ;
+    ex:similarityScore 0.3652 .
+
+<http://example.org/aikg/similarity/1207.0580_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.3889 .
+
+<http://example.org/aikg/similarity/1207.0580_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1207.0580> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.3719 .
+
+<http://example.org/aikg/similarity/1312.5602_1406.2661> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1312.5602> ;
+    ex:paper2 <http://example.org/aikg/paper/1406.2661> ;
+    ex:similarityScore 0.3838 .
+
+<http://example.org/aikg/similarity/1312.5602_1505.04597> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1312.5602> ;
+    ex:paper2 <http://example.org/aikg/paper/1505.04597> ;
+    ex:similarityScore 0.4217 .
+
+<http://example.org/aikg/similarity/1312.5602_1512.03385> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1312.5602> ;
+    ex:paper2 <http://example.org/aikg/paper/1512.03385> ;
+    ex:similarityScore 0.5372 .
+
+<http://example.org/aikg/similarity/1312.5602_1707.06347> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1312.5602> ;
+    ex:paper2 <http://example.org/aikg/paper/1707.06347> ;
+    ex:similarityScore 0.5702 .
+
+<http://example.org/aikg/similarity/1312.5602_2004.10934> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1312.5602> ;
+    ex:paper2 <http://example.org/aikg/paper/2004.10934> ;
+    ex:similarityScore 0.4022 .
+
+<http://example.org/aikg/similarity/1312.5602_2005.12729> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1312.5602> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.12729> ;
+    ex:similarityScore 0.56 .
+
+<http://example.org/aikg/similarity/1312.5602_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1312.5602> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.3715 .
+
+<http://example.org/aikg/similarity/1312.5602_2212.08073> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1312.5602> ;
+    ex:paper2 <http://example.org/aikg/paper/2212.08073> ;
+    ex:similarityScore 0.4357 .
+
+<http://example.org/aikg/similarity/1406.2661_1512.03385> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/1512.03385> ;
+    ex:similarityScore 0.4142 .
+
+<http://example.org/aikg/similarity/1406.2661_1707.06347> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/1707.06347> ;
+    ex:similarityScore 0.3575 .
+
+<http://example.org/aikg/similarity/1406.2661_1810.04805> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/1810.04805> ;
+    ex:similarityScore 0.3501 .
+
+<http://example.org/aikg/similarity/1406.2661_2004.10934> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2004.10934> ;
+    ex:similarityScore 0.3757 .
+
+<http://example.org/aikg/similarity/1406.2661_2005.12729> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.12729> ;
+    ex:similarityScore 0.3835 .
+
+<http://example.org/aikg/similarity/1406.2661_2006.11239> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2006.11239> ;
+    ex:similarityScore 0.4015 .
+
+<http://example.org/aikg/similarity/1406.2661_2103.00020> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2103.00020> ;
+    ex:similarityScore 0.3625 .
+
+<http://example.org/aikg/similarity/1406.2661_2105.05233> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2105.05233> ;
+    ex:similarityScore 0.4519 .
+
+<http://example.org/aikg/similarity/1406.2661_2109.13916> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2109.13916> ;
+    ex:similarityScore 0.3831 .
+
+<http://example.org/aikg/similarity/1406.2661_2112.01573> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.01573> ;
+    ex:similarityScore 0.437 .
+
+<http://example.org/aikg/similarity/1406.2661_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.389 .
+
+<http://example.org/aikg/similarity/1406.2661_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.3708 .
+
+<http://example.org/aikg/similarity/1406.2661_2212.08073> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1406.2661> ;
+    ex:paper2 <http://example.org/aikg/paper/2212.08073> ;
+    ex:similarityScore 0.3806 .
+
+<http://example.org/aikg/similarity/1412.6980_1707.06347> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1412.6980> ;
+    ex:paper2 <http://example.org/aikg/paper/1707.06347> ;
+    ex:similarityScore 0.548 .
+
+<http://example.org/aikg/similarity/1412.6980_2005.12729> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1412.6980> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.12729> ;
+    ex:similarityScore 0.4022 .
+
+<http://example.org/aikg/similarity/1412.6980_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1412.6980> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.3648 .
+
+<http://example.org/aikg/similarity/1505.04597_1506.01497> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/1506.01497> ;
+    ex:similarityScore 0.6327 .
+
+<http://example.org/aikg/similarity/1505.04597_1512.03385> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/1512.03385> ;
+    ex:similarityScore 0.5851 .
+
+<http://example.org/aikg/similarity/1505.04597_1706.03762> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/1706.03762> ;
+    ex:similarityScore 0.3534 .
+
+<http://example.org/aikg/similarity/1505.04597_1707.06347> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/1707.06347> ;
+    ex:similarityScore 0.3983 .
+
+<http://example.org/aikg/similarity/1505.04597_1810.04805> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/1810.04805> ;
+    ex:similarityScore 0.4353 .
+
+<http://example.org/aikg/similarity/1505.04597_2004.10934> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2004.10934> ;
+    ex:similarityScore 0.4985 .
+
+<http://example.org/aikg/similarity/1505.04597_2005.12729> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.12729> ;
+    ex:similarityScore 0.3869 .
+
+<http://example.org/aikg/similarity/1505.04597_2005.14165> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.14165> ;
+    ex:similarityScore 0.4574 .
+
+<http://example.org/aikg/similarity/1505.04597_2010.11929> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2010.11929> ;
+    ex:similarityScore 0.4857 .
+
+<http://example.org/aikg/similarity/1505.04597_2103.00020> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2103.00020> ;
+    ex:similarityScore 0.4342 .
+
+<http://example.org/aikg/similarity/1505.04597_2105.05233> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2105.05233> ;
+    ex:similarityScore 0.3663 .
+
+<http://example.org/aikg/similarity/1505.04597_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.3764 .
+
+<http://example.org/aikg/similarity/1505.04597_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.3648 .
+
+<http://example.org/aikg/similarity/1505.04597_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.379 .
+
+<http://example.org/aikg/similarity/1505.04597_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1505.04597> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.3527 .
+
+<http://example.org/aikg/similarity/1506.01497_1512.03385> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1506.01497> ;
+    ex:paper2 <http://example.org/aikg/paper/1512.03385> ;
+    ex:similarityScore 0.479 .
+
+<http://example.org/aikg/similarity/1506.01497_2004.10934> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1506.01497> ;
+    ex:paper2 <http://example.org/aikg/paper/2004.10934> ;
+    ex:similarityScore 0.446 .
+
+<http://example.org/aikg/similarity/1506.01497_2010.11929> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1506.01497> ;
+    ex:paper2 <http://example.org/aikg/paper/2010.11929> ;
+    ex:similarityScore 0.494 .
+
+<http://example.org/aikg/similarity/1506.01497_2103.00020> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1506.01497> ;
+    ex:paper2 <http://example.org/aikg/paper/2103.00020> ;
+    ex:similarityScore 0.3778 .
+
+<http://example.org/aikg/similarity/1512.03385_1706.03762> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/1706.03762> ;
+    ex:similarityScore 0.4344 .
+
+<http://example.org/aikg/similarity/1512.03385_1707.06347> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/1707.06347> ;
+    ex:similarityScore 0.4123 .
+
+<http://example.org/aikg/similarity/1512.03385_1810.04805> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/1810.04805> ;
+    ex:similarityScore 0.4506 .
+
+<http://example.org/aikg/similarity/1512.03385_2004.10934> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2004.10934> ;
+    ex:similarityScore 0.6544 .
+
+<http://example.org/aikg/similarity/1512.03385_2005.12729> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.12729> ;
+    ex:similarityScore 0.456 .
+
+<http://example.org/aikg/similarity/1512.03385_2005.14165> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.14165> ;
+    ex:similarityScore 0.3801 .
+
+<http://example.org/aikg/similarity/1512.03385_2010.11929> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2010.11929> ;
+    ex:similarityScore 0.5529 .
+
+<http://example.org/aikg/similarity/1512.03385_2103.00020> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2103.00020> ;
+    ex:similarityScore 0.405 .
+
+<http://example.org/aikg/similarity/1512.03385_2105.05233> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2105.05233> ;
+    ex:similarityScore 0.4364 .
+
+<http://example.org/aikg/similarity/1512.03385_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.4057 .
+
+<http://example.org/aikg/similarity/1512.03385_2109.13916> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2109.13916> ;
+    ex:similarityScore 0.3906 .
+
+<http://example.org/aikg/similarity/1512.03385_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.4351 .
+
+<http://example.org/aikg/similarity/1512.03385_2204.05149> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2204.05149> ;
+    ex:similarityScore 0.3841 .
+
+<http://example.org/aikg/similarity/1512.03385_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.3787 .
+
+<http://example.org/aikg/similarity/1512.03385_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.3883 .
+
+<http://example.org/aikg/similarity/1512.03385_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1512.03385> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.3504 .
+
+<http://example.org/aikg/similarity/1706.03762_1810.04805> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/1810.04805> ;
+    ex:similarityScore 0.5793 .
+
+<http://example.org/aikg/similarity/1706.03762_2004.10934> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2004.10934> ;
+    ex:similarityScore 0.3921 .
+
+<http://example.org/aikg/similarity/1706.03762_2005.14165> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.14165> ;
+    ex:similarityScore 0.4777 .
+
+<http://example.org/aikg/similarity/1706.03762_2010.11929> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2010.11929> ;
+    ex:similarityScore 0.6347 .
+
+<http://example.org/aikg/similarity/1706.03762_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.4595 .
+
+<http://example.org/aikg/similarity/1706.03762_2112.01573> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.01573> ;
+    ex:similarityScore 0.3555 .
+
+<http://example.org/aikg/similarity/1706.03762_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.3733 .
+
+<http://example.org/aikg/similarity/1706.03762_2203.02155> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2203.02155> ;
+    ex:similarityScore 0.3938 .
+
+<http://example.org/aikg/similarity/1706.03762_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.3966 .
+
+<http://example.org/aikg/similarity/1706.03762_2301.13688> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2301.13688> ;
+    ex:similarityScore 0.4149 .
+
+<http://example.org/aikg/similarity/1706.03762_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.4922 .
+
+<http://example.org/aikg/similarity/1706.03762_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.4714 .
+
+<http://example.org/aikg/similarity/1706.03762_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1706.03762> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.4433 .
+
+<http://example.org/aikg/similarity/1707.06347_2005.12729> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1707.06347> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.12729> ;
+    ex:similarityScore 0.6354 .
+
+<http://example.org/aikg/similarity/1707.06347_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1707.06347> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.3531 .
+
+<http://example.org/aikg/similarity/1707.06347_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1707.06347> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.3513 .
+
+<http://example.org/aikg/similarity/1707.06347_2212.08073> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1707.06347> ;
+    ex:paper2 <http://example.org/aikg/paper/2212.08073> ;
+    ex:similarityScore 0.3504 .
+
+<http://example.org/aikg/similarity/1810.04805_2004.10934> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2004.10934> ;
+    ex:similarityScore 0.3618 .
+
+<http://example.org/aikg/similarity/1810.04805_2005.14165> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.14165> ;
+    ex:similarityScore 0.592 .
+
+<http://example.org/aikg/similarity/1810.04805_2010.11929> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2010.11929> ;
+    ex:similarityScore 0.5364 .
+
+<http://example.org/aikg/similarity/1810.04805_2103.00020> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2103.00020> ;
+    ex:similarityScore 0.5021 .
+
+<http://example.org/aikg/similarity/1810.04805_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.5604 .
+
+<http://example.org/aikg/similarity/1810.04805_2112.01573> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.01573> ;
+    ex:similarityScore 0.3612 .
+
+<http://example.org/aikg/similarity/1810.04805_2203.02155> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2203.02155> ;
+    ex:similarityScore 0.4524 .
+
+<http://example.org/aikg/similarity/1810.04805_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.3987 .
+
+<http://example.org/aikg/similarity/1810.04805_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.593 .
+
+<http://example.org/aikg/similarity/1810.04805_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.5783 .
+
+<http://example.org/aikg/similarity/1810.04805_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/1810.04805> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.5082 .
+
+<http://example.org/aikg/similarity/2004.10934_2005.12729> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.12729> ;
+    ex:similarityScore 0.4627 .
+
+<http://example.org/aikg/similarity/2004.10934_2005.14165> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.14165> ;
+    ex:similarityScore 0.3887 .
+
+<http://example.org/aikg/similarity/2004.10934_2010.11929> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2010.11929> ;
+    ex:similarityScore 0.5826 .
+
+<http://example.org/aikg/similarity/2004.10934_2103.00020> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2103.00020> ;
+    ex:similarityScore 0.351 .
+
+<http://example.org/aikg/similarity/2004.10934_2105.05233> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2105.05233> ;
+    ex:similarityScore 0.3944 .
+
+<http://example.org/aikg/similarity/2004.10934_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.398 .
+
+<http://example.org/aikg/similarity/2004.10934_2109.13916> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2109.13916> ;
+    ex:similarityScore 0.4628 .
+
+<http://example.org/aikg/similarity/2004.10934_2204.05149> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2204.05149> ;
+    ex:similarityScore 0.4346 .
+
+<http://example.org/aikg/similarity/2004.10934_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.3887 .
+
+<http://example.org/aikg/similarity/2004.10934_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2004.10934> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.3507 .
+
+<http://example.org/aikg/similarity/2005.12729_2005.14165> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.12729> ;
+    ex:paper2 <http://example.org/aikg/paper/2005.14165> ;
+    ex:similarityScore 0.3657 .
+
+<http://example.org/aikg/similarity/2005.12729_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.12729> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.4012 .
+
+<http://example.org/aikg/similarity/2005.12729_2109.13916> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.12729> ;
+    ex:paper2 <http://example.org/aikg/paper/2109.13916> ;
+    ex:similarityScore 0.4221 .
+
+<http://example.org/aikg/similarity/2005.12729_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.12729> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.3551 .
+
+<http://example.org/aikg/similarity/2005.12729_2203.02155> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.12729> ;
+    ex:paper2 <http://example.org/aikg/paper/2203.02155> ;
+    ex:similarityScore 0.3701 .
+
+<http://example.org/aikg/similarity/2005.12729_2204.05149> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.12729> ;
+    ex:paper2 <http://example.org/aikg/paper/2204.05149> ;
+    ex:similarityScore 0.4207 .
+
+<http://example.org/aikg/similarity/2005.12729_2212.08073> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.12729> ;
+    ex:paper2 <http://example.org/aikg/paper/2212.08073> ;
+    ex:similarityScore 0.4343 .
+
+<http://example.org/aikg/similarity/2005.12729_2301.13688> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.12729> ;
+    ex:paper2 <http://example.org/aikg/paper/2301.13688> ;
+    ex:similarityScore 0.4436 .
+
+<http://example.org/aikg/similarity/2005.12729_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.12729> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.3506 .
+
+<http://example.org/aikg/similarity/2005.14165_2010.11929> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2010.11929> ;
+    ex:similarityScore 0.4538 .
+
+<http://example.org/aikg/similarity/2005.14165_2103.00020> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2103.00020> ;
+    ex:similarityScore 0.5458 .
+
+<http://example.org/aikg/similarity/2005.14165_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.6976 .
+
+<http://example.org/aikg/similarity/2005.14165_2112.01573> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.01573> ;
+    ex:similarityScore 0.3735 .
+
+<http://example.org/aikg/similarity/2005.14165_2203.02155> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2203.02155> ;
+    ex:similarityScore 0.5881 .
+
+<http://example.org/aikg/similarity/2005.14165_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.4185 .
+
+<http://example.org/aikg/similarity/2005.14165_2301.13688> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2301.13688> ;
+    ex:similarityScore 0.4807 .
+
+<http://example.org/aikg/similarity/2005.14165_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.6068 .
+
+<http://example.org/aikg/similarity/2005.14165_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.6478 .
+
+<http://example.org/aikg/similarity/2005.14165_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2005.14165> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.5072 .
+
+<http://example.org/aikg/similarity/2006.11239_2105.05233> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2006.11239> ;
+    ex:paper2 <http://example.org/aikg/paper/2105.05233> ;
+    ex:similarityScore 0.743 .
+
+<http://example.org/aikg/similarity/2006.11239_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2006.11239> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.6891 .
+
+<http://example.org/aikg/similarity/2006.11239_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2006.11239> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.3506 .
+
+<http://example.org/aikg/similarity/2010.11929_2103.00020> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2010.11929> ;
+    ex:paper2 <http://example.org/aikg/paper/2103.00020> ;
+    ex:similarityScore 0.4551 .
+
+<http://example.org/aikg/similarity/2010.11929_2105.05233> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2010.11929> ;
+    ex:paper2 <http://example.org/aikg/paper/2105.05233> ;
+    ex:similarityScore 0.3875 .
+
+<http://example.org/aikg/similarity/2010.11929_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2010.11929> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.4272 .
+
+<http://example.org/aikg/similarity/2010.11929_2112.01573> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2010.11929> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.01573> ;
+    ex:similarityScore 0.4083 .
+
+<http://example.org/aikg/similarity/2010.11929_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2010.11929> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.3946 .
+
+<http://example.org/aikg/similarity/2010.11929_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2010.11929> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.3795 .
+
+<http://example.org/aikg/similarity/2010.11929_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2010.11929> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.3872 .
+
+<http://example.org/aikg/similarity/2103.00020_2106.09685> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2103.00020> ;
+    ex:paper2 <http://example.org/aikg/paper/2106.09685> ;
+    ex:similarityScore 0.4693 .
+
+<http://example.org/aikg/similarity/2103.00020_2112.01573> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2103.00020> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.01573> ;
+    ex:similarityScore 0.4462 .
+
+<http://example.org/aikg/similarity/2103.00020_2203.02155> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2103.00020> ;
+    ex:paper2 <http://example.org/aikg/paper/2203.02155> ;
+    ex:similarityScore 0.4273 .
+
+<http://example.org/aikg/similarity/2103.00020_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2103.00020> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.5513 .
+
+<http://example.org/aikg/similarity/2103.00020_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2103.00020> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.3805 .
+
+<http://example.org/aikg/similarity/2103.00020_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2103.00020> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.4509 .
+
+<http://example.org/aikg/similarity/2103.00020_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2103.00020> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.4902 .
+
+<http://example.org/aikg/similarity/2105.05233_2112.01573> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2105.05233> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.01573> ;
+    ex:similarityScore 0.3534 .
+
+<http://example.org/aikg/similarity/2105.05233_2112.10752> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2105.05233> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.10752> ;
+    ex:similarityScore 0.7255 .
+
+<http://example.org/aikg/similarity/2105.05233_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2105.05233> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.3881 .
+
+<http://example.org/aikg/similarity/2106.09685_2112.01573> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2106.09685> ;
+    ex:paper2 <http://example.org/aikg/paper/2112.01573> ;
+    ex:similarityScore 0.3573 .
+
+<http://example.org/aikg/similarity/2106.09685_2203.02155> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2106.09685> ;
+    ex:paper2 <http://example.org/aikg/paper/2203.02155> ;
+    ex:similarityScore 0.4667 .
+
+<http://example.org/aikg/similarity/2106.09685_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2106.09685> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.3513 .
+
+<http://example.org/aikg/similarity/2106.09685_2301.13688> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2106.09685> ;
+    ex:paper2 <http://example.org/aikg/paper/2301.13688> ;
+    ex:similarityScore 0.4145 .
+
+<http://example.org/aikg/similarity/2106.09685_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2106.09685> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.6054 .
+
+<http://example.org/aikg/similarity/2106.09685_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2106.09685> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.6374 .
+
+<http://example.org/aikg/similarity/2106.09685_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2106.09685> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.5712 .
+
+<http://example.org/aikg/similarity/2109.13916_2204.05149> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2109.13916> ;
+    ex:paper2 <http://example.org/aikg/paper/2204.05149> ;
+    ex:similarityScore 0.5658 .
+
+<http://example.org/aikg/similarity/2109.13916_2212.08073> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2109.13916> ;
+    ex:paper2 <http://example.org/aikg/paper/2212.08073> ;
+    ex:similarityScore 0.4361 .
+
+<http://example.org/aikg/similarity/2112.01573_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2112.01573> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.5484 .
+
+<http://example.org/aikg/similarity/2112.01573_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2112.01573> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.4062 .
+
+<http://example.org/aikg/similarity/2112.10752_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2112.10752> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.3832 .
+
+<http://example.org/aikg/similarity/2203.02155_2208.01618> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2203.02155> ;
+    ex:paper2 <http://example.org/aikg/paper/2208.01618> ;
+    ex:similarityScore 0.489 .
+
+<http://example.org/aikg/similarity/2203.02155_2212.08073> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2203.02155> ;
+    ex:paper2 <http://example.org/aikg/paper/2212.08073> ;
+    ex:similarityScore 0.3879 .
+
+<http://example.org/aikg/similarity/2203.02155_2301.13688> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2203.02155> ;
+    ex:paper2 <http://example.org/aikg/paper/2301.13688> ;
+    ex:similarityScore 0.5114 .
+
+<http://example.org/aikg/similarity/2203.02155_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2203.02155> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.5893 .
+
+<http://example.org/aikg/similarity/2203.02155_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2203.02155> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.6202 .
+
+<http://example.org/aikg/similarity/2203.02155_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2203.02155> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.5669 .
+
+<http://example.org/aikg/similarity/2208.01618_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2208.01618> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.4159 .
+
+<http://example.org/aikg/similarity/2208.01618_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2208.01618> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.5299 .
+
+<http://example.org/aikg/similarity/2301.13688_2302.13971> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2301.13688> ;
+    ex:paper2 <http://example.org/aikg/paper/2302.13971> ;
+    ex:similarityScore 0.4125 .
+
+<http://example.org/aikg/similarity/2301.13688_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2301.13688> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.3903 .
+
+<http://example.org/aikg/similarity/2301.13688_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2301.13688> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.3928 .
+
+<http://example.org/aikg/similarity/2302.13971_2307.09288> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2302.13971> ;
+    ex:paper2 <http://example.org/aikg/paper/2307.09288> ;
+    ex:similarityScore 0.7308 .
+
+<http://example.org/aikg/similarity/2302.13971_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2302.13971> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.5814 .
+
+<http://example.org/aikg/similarity/2307.09288_2309.17421> a ex:SimilarityStatement ;
+    ex:paper1 <http://example.org/aikg/paper/2307.09288> ;
+    ex:paper2 <http://example.org/aikg/paper/2309.17421> ;
+    ex:similarityScore 0.6291 .
+
+<http://example.org/aikg/organization/Amazon_MTurk> a org:Organization ;
+    foaf:name "Amazon MTurk" .
+
+<http://example.org/aikg/organization/BMBF> a org:Organization ;
+    foaf:name "BMBF" .
+
+<http://example.org/aikg/organization/BSF> a org:Organization ;
+    foaf:name "BSF" .
+
+<http://example.org/aikg/organization/CIFAR> a org:Organization ;
+    foaf:name "CIFAR" .
+
+<http://example.org/aikg/organization/Calcul_Québec> a org:Organization ;
+    foaf:name "Calcul Québec" .
+
+<http://example.org/aikg/organization/Canada_Research_Chairs> a org:Organization ;
+    foaf:name "Canada Research Chairs" .
+
+<http://example.org/aikg/organization/Compute_Canada> a org:Organization ;
+    foaf:name "Compute Canada" .
+
+<http://example.org/aikg/organization/DH> a org:Organization ;
+    foaf:name "DH" .
+
+<http://example.org/aikg/organization/Duke_University> a org:Organization ;
+    foaf:name "Duke University" .
+
+<http://example.org/aikg/organization/EXC> a org:Organization ;
+    foaf:name "EXC" .
+
+<http://example.org/aikg/organization/Excellence_Initiative> a org:Organization ;
+    foaf:name "Excellence Initiative" .
+
+<http://example.org/aikg/organization/Google_Deepmind> a org:Organization ;
+    foaf:name "Google Deepmind" .
+
+<http://example.org/aikg/organization/ISF> a org:Organization ;
+    foaf:name "ISF" .
+
+<http://example.org/aikg/organization/Les_Trois_Brasseurs> a org:Organization ;
+    foaf:name "Les Trois Brasseurs" .
+
+<http://example.org/aikg/organization/Microsoft_Corporation> a org:Organization ;
+    foaf:name "Microsoft Corporation" .
+
+<http://example.org/aikg/organization/ON> a org:Organization ;
+    foaf:name "ON" .
+
+<http://example.org/aikg/organization/Surge_AI> a org:Organization ;
+    foaf:name "Surge AI" .
+
+<http://example.org/aikg/organization/TFRC> a org:Organization ;
+    foaf:name "TFRC" .
+
+<http://example.org/aikg/organization/TensorFlow_Research_Cloud> a org:Organization ;
+    foaf:name "TensorFlow Research Cloud" .
+
+<http://example.org/aikg/organization/Upwork> a org:Organization ;
+    foaf:name "Upwork" .
+
+<http://example.org/aikg/organization/xformers> a org:Organization ;
+    foaf:name "xformers" .
+
+<http://example.org/aikg/person/Adam> a foaf:Person ;
+    foaf:name "Adam" .
+
+<http://example.org/aikg/person/Alain_Couillault> a foaf:Person ;
+    foaf:name "Alain Couillault" .
+
+<http://example.org/aikg/person/Amanda_Casari> a foaf:Person ;
+    foaf:name "Amanda Casari" .
+
+<http://example.org/aikg/person/Andreas_Steiner> a foaf:Person ;
+    foaf:name "Andreas Steiner" .
+
+<http://example.org/aikg/person/Andreas_Terzis> a foaf:Person ;
+    foaf:name "Andreas Terzis" .
+
+<http://example.org/aikg/person/Andy_Hickl> a foaf:Person ;
+    foaf:name "Andy Hickl" .
+
+<http://example.org/aikg/person/Aravindh_Mahendran> a foaf:Person ;
+    foaf:name "Aravindh Mahendran" .
+
+<http://example.org/aikg/person/Arnaud_Bergeron> a foaf:Person ;
+    foaf:name "Arnaud Bergeron" .
+
+<http://example.org/aikg/person/Artem_Korenev> a foaf:Person ;
+    foaf:name "Artem Korenev" .
+
+<http://example.org/aikg/person/Ashish_Vaswani> a foaf:Person ;
+    foaf:name "Ashish Vaswani" .
+
+<http://example.org/aikg/person/Blavatnik> a foaf:Person ;
+    foaf:name "Blavatnik" .
+
+<http://example.org/aikg/person/Boris_Power> a foaf:Person ;
+    foaf:name "Boris Power" .
+
+<http://example.org/aikg/person/Brooke_Chan> a foaf:Person ;
+    foaf:name "Brooke Chan" .
+
+<http://example.org/aikg/person/Cathy_Yeh> a foaf:Person ;
+    foaf:name "Cathy Yeh" .
+
+<http://example.org/aikg/person/Che_Chang> a foaf:Person ;
+    foaf:name "Che Chang" .
+
+<http://example.org/aikg/person/Chelsea_Voss> a foaf:Person ;
+    foaf:name "Chelsea Voss" .
+
+<http://example.org/aikg/person/Chloe_Hsu> a foaf:Person ;
+    foaf:name "Chloe Hsu" .
+
+<http://example.org/aikg/person/Christopher_Berner> a foaf:Person ;
+    foaf:name "Christopher Berner" .
+
+<http://example.org/aikg/person/Christy_Dennison> a foaf:Person ;
+    foaf:name "Christy Dennison" .
+
+<http://example.org/aikg/person/Collin_Burns> a foaf:Person ;
+    foaf:name "Collin Burns" .
+
+<http://example.org/aikg/person/D_Sculley> a foaf:Person ;
+    foaf:name "D. Sculley" .
+
+<http://example.org/aikg/person/Daniel_Haziza> a foaf:Person ;
+    foaf:name "Daniel Haziza" .
+
+<http://example.org/aikg/person/Daniel_Keysers> a foaf:Person ;
+    foaf:name "Daniel Keysers" .
+
+<http://example.org/aikg/person/Daniel_Ziegler> a foaf:Person ;
+    foaf:name "Daniel Ziegler" .
+
+<http://example.org/aikg/person/Daniela_Amodei> a foaf:Person ;
+    foaf:name "Daniela Amodei" .
+
+<http://example.org/aikg/person/David_Luan> a foaf:Person ;
+    foaf:name "David Luan" .
+
+<http://example.org/aikg/person/Ed_H_Chi> a foaf:Person ;
+    foaf:name "Ed H Chi" .
+
+<http://example.org/aikg/person/Emily_Bender> a foaf:Person ;
+    foaf:name "Emily Bender" .
+
+<http://example.org/aikg/person/Emma_Strubell> a foaf:Person ;
+    foaf:name "Emma Strubell" .
+
+<http://example.org/aikg/person/Eric_Charran> a foaf:Person ;
+    foaf:name "Eric Charran" .
+
+<http://example.org/aikg/person/Eric_Horvitz> a foaf:Person ;
+    foaf:name "Eric Horvitz" .
+
+<http://example.org/aikg/person/Filipe_Dobreira> a foaf:Person ;
+    foaf:name "Filipe Dobreira" .
+
+<http://example.org/aikg/person/Florian_Tramèr> a foaf:Person ;
+    foaf:name "Florian Tramèr" .
+
+<http://example.org/aikg/person/Francisco_Massa> a foaf:Person ;
+    foaf:name "Francisco Massa" .
+
+<http://example.org/aikg/person/Frédéric_Bastien> a foaf:Person ;
+    foaf:name "Frédéric Bastien" .
+
+<http://example.org/aikg/person/Gopi_K> a foaf:Person ;
+    foaf:name "Gopi K" .
+
+<http://example.org/aikg/person/Greg_Brockman> a foaf:Person ;
+    foaf:name "Greg Brockman" .
+
+<http://example.org/aikg/person/Gregory_Buehrer> a foaf:Person ;
+    foaf:name "Gregory Buehrer" .
+
+<http://example.org/aikg/person/Gretchen_Krueger> a foaf:Person ;
+    foaf:name "Gretchen Krueger" .
+
+<http://example.org/aikg/person/Guro_Khundadze> a foaf:Person ;
+    foaf:name "Guro Khundadze" .
+
+<http://example.org/aikg/person/Haggai_Maron> a foaf:Person ;
+    foaf:name "Haggai Maron" .
+
+<http://example.org/aikg/person/Harrison_Edwards> a foaf:Person ;
+    foaf:name "Harrison Edwards" .
+
+<http://example.org/aikg/person/Henry_Zhu> a foaf:Person ;
+    foaf:name "Henry Zhu" .
+
+<http://example.org/aikg/person/Ian_Goodfellow> a foaf:Person ;
+    foaf:name "Ian Goodfellow" .
+
+<http://example.org/aikg/person/Ilya_Sutskever> a foaf:Person ;
+    foaf:name "Ilya Sutskever" .
+
+<http://example.org/aikg/person/Irene_Soliaman> a foaf:Person ;
+    foaf:name "Irene Soliaman" .
+
+<http://example.org/aikg/person/Ishaan_Gulrajani> a foaf:Person ;
+    foaf:name "Ishaan Gulrajani" .
+
+<http://example.org/aikg/person/Ivo_Danihelka> a foaf:Person ;
+    foaf:name "Ivo Danihelka" .
+
+<http://example.org/aikg/person/Jacob_Hilton> a foaf:Person ;
+    foaf:name "Jacob Hilton" .
+
+<http://example.org/aikg/person/Jakub_Pachocki> a foaf:Person ;
+    foaf:name "Jakub Pachocki" .
+
+<http://example.org/aikg/person/Jamie_Kerr> a foaf:Person ;
+    foaf:name "Jamie Kerr" .
+
+<http://example.org/aikg/person/Jane_Yu> a foaf:Person ;
+    foaf:name "Jane Yu" .
+
+<http://example.org/aikg/person/Jarrah_Bloomfield> a foaf:Person ;
+    foaf:name "Jarrah Bloomfield" .
+
+<http://example.org/aikg/person/Jason_Kwon> a foaf:Person ;
+    foaf:name "Jason Kwon" .
+
+<http://example.org/aikg/person/Jeffrey_Ladish> a foaf:Person ;
+    foaf:name "Jeffrey Ladish" .
+
+<http://example.org/aikg/person/Jeremy_Reizenstein> a foaf:Person ;
+    foaf:name "Jeremy Reizenstein" .
+
+<http://example.org/aikg/person/Jia_Yuan_Loke> a foaf:Person ;
+    foaf:name "Jia Yuan Loke" .
+
+<http://example.org/aikg/person/Joan_Puigcerver> a foaf:Person ;
+    foaf:name "Joan Puigcerver" .
+
+<http://example.org/aikg/person/John_Montgomery> a foaf:Person ;
+    foaf:name "John Montgomery" .
+
+<http://example.org/aikg/person/Jonathan_Uesato> a foaf:Person ;
+    foaf:name "Jonathan Uesato" .
+
+<http://example.org/aikg/person/Jonathan_Ward> a foaf:Person ;
+    foaf:name "Jonathan Ward" .
+
+<http://example.org/aikg/person/Josh_Achiam> a foaf:Person ;
+    foaf:name "Josh Achiam" .
+
+<http://example.org/aikg/person/Joy_Buolamwini> a foaf:Person ;
+    foaf:name "Joy Buolamwini" .
+
+<http://example.org/aikg/person/Kai_Fan> a foaf:Person ;
+    foaf:name "Kai Fan" .
+
+<http://example.org/aikg/person/Kalyan_Saladi> a foaf:Person ;
+    foaf:name "Kalyan Saladi" .
+
+<http://example.org/aikg/person/Kevin_Liu> a foaf:Person ;
+    foaf:name "Kevin Liu" .
+
+<http://example.org/aikg/person/Leigh_Dodds> a foaf:Person ;
+    foaf:name "Leigh Dodds" .
+
+<http://example.org/aikg/person/Len_Blavatnik> a foaf:Person ;
+    foaf:name "Len Blavatnik" .
+
+<http://example.org/aikg/person/Leo_Gao> a foaf:Person ;
+    foaf:name "Leo Gao" .
+
+<http://example.org/aikg/person/Lilian_Weng> a foaf:Person ;
+    foaf:name "Lilian Weng" .
+
+<http://example.org/aikg/person/Luca_Wehrstedt> a foaf:Person ;
+    foaf:name "Luca Wehrstedt" .
+
+<http://example.org/aikg/person/Lukas_Dauterman> a foaf:Person ;
+    foaf:name "Lukas Dauterman" .
+
+<http://example.org/aikg/person/Maja_Trebacz> a foaf:Person ;
+    foaf:name "Maja Trebacz" .
+
+<http://example.org/aikg/person/Mantas_Mazeika> a foaf:Person ;
+    foaf:name "Mantas Mazeika" .
+
+<http://example.org/aikg/person/Marco_Casalaina> a foaf:Person ;
+    foaf:name "Marco Casalaina" .
+
+<http://example.org/aikg/person/Mario_Lučić> a foaf:Person ;
+    foaf:name "Mario Lučić" .
+
+<http://example.org/aikg/person/Mark_Chen> a foaf:Person ;
+    foaf:name "Mark Chen" .
+
+<http://example.org/aikg/person/Mark_Xu> a foaf:Person ;
+    foaf:name "Mark Xu" .
+
+<http://example.org/aikg/person/Martin_Hansen> a foaf:Person ;
+    foaf:name "Martin Hansen" .
+
+<http://example.org/aikg/person/Matt_Knight> a foaf:Person ;
+    foaf:name "Matt Knight" .
+
+<http://example.org/aikg/person/Maxim_Neumann> a foaf:Person ;
+    foaf:name "Maxim Neumann" .
+
+<http://example.org/aikg/person/Michael_Ekstrand> a foaf:Person ;
+    foaf:name "Michael Ekstrand" .
+
+<http://example.org/aikg/person/Michael_Golebiewski> a foaf:Person ;
+    foaf:name "Michael Golebiewski" .
+
+<http://example.org/aikg/person/Michael_Hoffman> a foaf:Person ;
+    foaf:name "Michael Hoffman" .
+
+<http://example.org/aikg/person/Michael_Petrov> a foaf:Person ;
+    foaf:name "Michael Petrov" .
+
+<http://example.org/aikg/person/Mingjing_Huang> a foaf:Person ;
+    foaf:name "Mingjing Huang" .
+
+<http://example.org/aikg/person/Miroslav_Dudík> a foaf:Person ;
+    foaf:name "Miroslav Dudík" .
+
+<http://example.org/aikg/person/Misha_Bilenko> a foaf:Person ;
+    foaf:name "Misha Bilenko" .
+
+<http://example.org/aikg/person/Nal_Kalchbrenner> a foaf:Person ;
+    foaf:name "Nal Kalchbrenner" .
+
+<http://example.org/aikg/person/Nguyen_Bach> a foaf:Person ;
+    foaf:name "Nguyen Bach" .
+
+<http://example.org/aikg/person/Nick_Cammaratta> a foaf:Person ;
+    foaf:name "Nick Cammaratta" .
+
+<http://example.org/aikg/person/Nick_Gonsalves> a foaf:Person ;
+    foaf:name "Nick Gonsalves" .
+
+<http://example.org/aikg/person/Noam_Shazeer> a foaf:Person ;
+    foaf:name "Noam Shazeer" .
+
+<http://example.org/aikg/person/Noémie_Elhadad> a foaf:Person ;
+    foaf:name "Noémie Elhadad" .
+
+<http://example.org/aikg/person/Omri_Avrahami> a foaf:Person ;
+    foaf:name "Omri Avrahami" .
+
+<http://example.org/aikg/person/Owain_Evans> a foaf:Person ;
+    foaf:name "Owain Evans" .
+
+<http://example.org/aikg/person/Patrick_Labatut> a foaf:Person ;
+    foaf:name "Patrick Labatut" .
+
+<http://example.org/aikg/person/Paul_Christiano> a foaf:Person ;
+    foaf:name "Paul Christiano" .
+
+<http://example.org/aikg/person/Peter_Bailey> a foaf:Person ;
+    foaf:name "Peter Bailey" .
+
+<http://example.org/aikg/person/Peter_Chen> a foaf:Person ;
+    foaf:name "Peter Chen" .
+
+<http://example.org/aikg/person/Pierre-Emmanuel_Mazaré> a foaf:Person ;
+    foaf:name "Pierre-Emmanuel Mazaré" .
+
+<http://example.org/aikg/person/Raul_Puri> a foaf:Person ;
+    foaf:name "Raul Puri" .
+
+<http://example.org/aikg/person/Rebecca_Raible> a foaf:Person ;
+    foaf:name "Rebecca Raible" .
+
+<http://example.org/aikg/person/Rob_Gilson> a foaf:Person ;
+    foaf:name "Rob Gilson" .
+
+<http://example.org/aikg/person/Rocky_Duan> a foaf:Person ;
+    foaf:name "Rocky Duan" .
+
+<http://example.org/aikg/person/Roni_Paiss> a foaf:Person ;
+    foaf:name "Roni Paiss" .
+
+<http://example.org/aikg/person/Rune_Kvist> a foaf:Person ;
+    foaf:name "Rune Kvist" .
+
+<http://example.org/aikg/person/Ryan_Lowe> a foaf:Person ;
+    foaf:name "Ryan Lowe" .
+
+<http://example.org/aikg/person/Sarah_Bird> a foaf:Person ;
+    foaf:name "Sarah Bird" .
+
+<http://example.org/aikg/person/Sarah_Brown> a foaf:Person ;
+    foaf:name "Sarah Brown" .
+
+<http://example.org/aikg/person/Scott_Hoogerwerf> a foaf:Person ;
+    foaf:name "Scott Hoogerwerf" .
+
+<http://example.org/aikg/person/Sebastian_Conybeare> a foaf:Person ;
+    foaf:name "Sebastian Conybeare" .
+
+<http://example.org/aikg/person/Shubho_Sengupta> a foaf:Person ;
+    foaf:name "Shubho Sengupta" .
+
+<http://example.org/aikg/person/Sidney_Hough> a foaf:Person ;
+    foaf:name "Sidney Hough" .
+
+<http://example.org/aikg/person/Stella_Biderman> a foaf:Person ;
+    foaf:name "Stella Biderman" .
+
+<http://example.org/aikg/person/Stephan_Gouws> a foaf:Person ;
+    foaf:name "Stephan Gouws" .
+
+<http://example.org/aikg/person/Stephen_Roller> a foaf:Person ;
+    foaf:name "Stephen Roller" .
+
+<http://example.org/aikg/person/Steven_Adler> a foaf:Person ;
+    foaf:name "Steven Adler" .
+
+<http://example.org/aikg/person/Steven_Basart> a foaf:Person ;
+    foaf:name "Steven Basart" .
+
+<http://example.org/aikg/person/Steven_Bowles> a foaf:Person ;
+    foaf:name "Steven Bowles" .
+
+<http://example.org/aikg/person/Surya> a foaf:Person ;
+    foaf:name "Surya" .
+
+<http://example.org/aikg/person/Szymon_Sidor> a foaf:Person ;
+    foaf:name "Szymon Sidor" .
+
+<http://example.org/aikg/person/Thomas_Dietterich> a foaf:Person ;
+    foaf:name "Thomas Dietterich" .
+
+<http://example.org/aikg/person/Timothy_Telleen-Lawton> a foaf:Person ;
+    foaf:name "Timothy Telleen-Lawton" .
+
+<http://example.org/aikg/person/Tom_Bagshaw> a foaf:Person ;
+    foaf:name "Tom Bagshaw" .
+
+<http://example.org/aikg/person/Tom_Schaul> a foaf:Person ;
+    foaf:name "Tom Schaul" .
+
+<http://example.org/aikg/person/Tyna_Eloundou> a foaf:Person ;
+    foaf:name "Tyna Eloundou" .
+
+<http://example.org/aikg/person/Vegard_Mella> a foaf:Person ;
+    foaf:name "Vegard Mella" .
+
+<http://example.org/aikg/person/William_Saunders> a foaf:Person ;
+    foaf:name "William Saunders" .
+
+<http://example.org/aikg/person/Xinyun_Chen> a foaf:Person ;
+    foaf:name "Xinyun Chen" .
+
+<http://example.org/aikg/person/Yael_Vinker> a foaf:Person ;
+    foaf:name "Yael Vinker" .
+
+<http://example.org/aikg/person/Yongyi_Hu> a foaf:Person ;
+    foaf:name "Yongyi Hu" .
+
+<http://example.org/aikg/person/Yoshua_Bengio> a foaf:Person ;
+    foaf:name "Yoshua Bengio" .
+
+<http://example.org/aikg/person/Yura_Burda> a foaf:Person ;
+    foaf:name "Yura Burda" .
+
+<http://example.org/aikg/person/Zongwei_Zhou> a foaf:Person ;
+    foaf:name "Zongwei Zhou" .
+
+<http://example.org/aikg/topic/AI_Safety_&_Ethics> a skos:Concept ;
+    skos:prefLabel "AI Safety & Ethics" .
+
+<http://example.org/aikg/organization/Microsoft> a org:Organization ;
+    foaf:name "Microsoft" .
+
+<http://example.org/aikg/person/Alec_Radford> a foaf:Person ;
+    foaf:name "Alec Radford" .
+
+<http://example.org/aikg/person/Alex_Tamkin> a foaf:Person ;
+    foaf:name "Alex Tamkin" .
+
+<http://example.org/aikg/person/Beth_Barnes> a foaf:Person ;
+    foaf:name "Beth Barnes" .
+
+<http://example.org/aikg/person/Colin_Raffel> a foaf:Person ;
+    foaf:name "Colin Raffel" .
+
+<http://example.org/aikg/person/Dmitry_Lepikhin> a foaf:Person ;
+    foaf:name "Dmitry Lepikhin" .
+
+<http://example.org/aikg/person/Gillian_Hadfield> a foaf:Person ;
+    foaf:name "Gillian Hadfield" .
+
+<http://example.org/aikg/person/Irene_Solaiman> a foaf:Person ;
+    foaf:name "Irene Solaiman" .
+
+<http://example.org/aikg/person/Miles_Brundage> a foaf:Person ;
+    foaf:name "Miles Brundage" .
+
+<http://example.org/aikg/person/Pranav_Shyam> a foaf:Person ;
+    foaf:name "Pranav Shyam" .
+
+<http://example.org/aikg/person/Susan_Zhang> a foaf:Person ;
+    foaf:name "Susan Zhang" .
+
+<http://example.org/aikg/organization/Google> a org:Organization ;
+    foaf:name "Google" .
+
+<http://example.org/aikg/organization/NSF> a org:Organization ;
+    foaf:name "NSF" .
+
+<http://example.org/aikg/paper/1412.6980> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/Duke_University>,
+        <http://example.org/aikg/organization/Google_Deepmind>,
+        <http://example.org/aikg/person/Adam>,
+        <http://example.org/aikg/person/Ivo_Danihelka>,
+        <http://example.org/aikg/person/Kai_Fan>,
+        <http://example.org/aikg/person/Tom_Schaul> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    ex:similarTo <http://example.org/aikg/paper/1707.06347>,
+        <http://example.org/aikg/paper/2005.12729>,
+        <http://example.org/aikg/paper/2112.10752> ;
+    dc:creator "Diederik Kingma",
+        "Jimmy Lei Ba" ;
+    dc:description "We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm. * Equal contribution. Author ordering determined by coin flip over a Google Hangout." ;
+    dc:identifier "1412.6980" ;
+    dc:title "Published as a conference paper at ICLR 2015 ADAM: A METHOD FOR STOCHASTIC OPTIMIZATION" ;
+    owl:sameAs <https://arxiv.org/abs/1412.6980> .
+
+<http://example.org/aikg/topic/Reinforcement_Learning> a skos:Concept ;
+    skos:prefLabel "Reinforcement Learning" .
+
+<http://example.org/aikg/topic/Computer_Vision> a skos:Concept ;
+    skos:prefLabel "Computer Vision" .
+
+<http://example.org/aikg/topic/Generative_Models> a skos:Concept ;
+    skos:prefLabel "Generative Models" .
+
+<http://example.org/aikg/paper/2006.11239> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/Google>,
+        <http://example.org/aikg/organization/NSF>,
+        <http://example.org/aikg/organization/ON>,
+        <http://example.org/aikg/organization/TFRC>,
+        <http://example.org/aikg/organization/TensorFlow_Research_Cloud> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    ex:similarTo <http://example.org/aikg/paper/2105.05233>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2208.01618> ;
+    dc:creator "Ajay Jain",
+        "Jonathan Ho",
+        "Pieter Abbeel",
+        "U Berkeley" ;
+    dc:description "We present high quality image synthesis results using diffusion probabilistic models, a class of latent variable models inspired by considerations from nonequilibrium thermodynamics. Our best results are obtained by training on a weighted variational bound designed according to a novel connection between diffusion probabilistic models and denoising score matching with Langevin dynamics, and our models naturally admit a progressive lossy decompression scheme that can be interpreted as a generalization of autoregressive decoding. On the unconditional CIFAR10 dataset, we obtain an Inception score of 9.46 and a state-of-the-art FID score of 3.17. On 256x256 LSUN, we obtain sample quality similar to ProgressiveGAN. Our implementation is available at  https://github.com/hojonathanho/diffusion ." ;
+    dc:identifier "2006.11239" ;
+    dc:title "Denoising Diffusion Probabilistic Models" ;
+    owl:sameAs <https://arxiv.org/abs/2006.11239> .
+
+<http://example.org/aikg/organization/OpenAI> a org:Organization ;
+    foaf:name "OpenAI" .
+
+<http://example.org/aikg/topic/Language_Models> a skos:Concept ;
+    skos:prefLabel "Language Models" .
+
+<http://example.org/aikg/paper/1506.01497> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    ex:similarTo <http://example.org/aikg/paper/1512.03385>,
+        <http://example.org/aikg/paper/2004.10934>,
+        <http://example.org/aikg/paper/2010.11929>,
+        <http://example.org/aikg/paper/2103.00020> ;
+    dc:creator "Jian Sun",
+        "Kaiming He",
+        "Ross Girshick",
+        "Shaoqing Ren",
+        "• Girshick" ;
+    dc:description "State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet  [1]  and Fast R-CNN  [2]  have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features-using the recently popular terminology of neural networks with \"attention\" mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model [3], our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available." ;
+    dc:identifier "1506.01497" ;
+    dc:title "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks" ;
+    owl:sameAs <https://arxiv.org/abs/1506.01497> .
+
+<http://example.org/aikg/paper/1312.5602> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Reinforcement_Learning> ;
+    ex:similarTo <http://example.org/aikg/paper/1406.2661>,
+        <http://example.org/aikg/paper/1505.04597>,
+        <http://example.org/aikg/paper/1512.03385>,
+        <http://example.org/aikg/paper/1707.06347>,
+        <http://example.org/aikg/paper/2004.10934>,
+        <http://example.org/aikg/paper/2005.12729>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2212.08073> ;
+    dc:creator "Alex Graves",
+        "Daan Wierstra",
+        "David Silver",
+        "Ioannis Antonoglou",
+        "Koray Kavukcuoglu",
+        "Martin Riedmiller",
+        "Volodymyr Mnih" ;
+    dc:description "We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards. We apply our method to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. We find that it outperforms all previous approaches on six of the games and surpasses a human expert on three of them." ;
+    dc:identifier "1312.5602" ;
+    dc:title "Playing Atari with Deep Reinforcement Learning" ;
+    owl:sameAs <https://arxiv.org/abs/1312.5602> .
+
+<http://example.org/aikg/paper/2204.05149> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/Google>,
+        <http://example.org/aikg/organization/Microsoft>,
+        <http://example.org/aikg/organization/OpenAI>,
+        <http://example.org/aikg/person/Christopher_Berner>,
+        <http://example.org/aikg/person/Dmitry_Lepikhin>,
+        <http://example.org/aikg/person/Emma_Strubell>,
+        <http://example.org/aikg/person/Ilya_Sutskever>,
+        <http://example.org/aikg/person/Zongwei_Zhou> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    dc:creator "Chen Liang",
+        "Daniel Rothchild",
+        "David Patterson",
+        "David So",
+        "Jeff Dean",
+        "Joseph Gonzalez",
+        "Lluis-Miquel Munguia",
+        "Maud Texier",
+        "Quoc Le",
+        "Urs Hölzle" ;
+    dc:description "Machine Learning (ML) workloads have rapidly grown in importance, but raised concerns about their carbon footprint. Four best practices can reduce ML training energy by up to 100x and CO 2 emissions up to 1000x. By following best practices, overall ML energy use (across research, development, and production) held steady at <15% of Google's total energy use for the past three years. If the whole ML field were to adopt best practices, total carbon emissions from training would reduce. Hence, we recommend that ML papers include emissions explicitly to foster competition on more than just model quality. Estimates of emissions in papers that omitted them have been off 100x-100,000x, so publishing emissions has the added benefit of ensuring accurate accounting. Given the importance of climate change, we must get the numbers right to make certain that we work on its biggest challenges." ;
+    dc:identifier "2204.05149" ;
+    dc:title "The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink" ;
+    owl:sameAs <https://arxiv.org/abs/2204.05149> .
+
+<http://example.org/aikg/topic/Optimization_&_Training> a skos:Concept ;
+    skos:prefLabel "Optimization & Training" .
+
+<http://example.org/aikg/paper/2109.13916> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/DH>,
+        <http://example.org/aikg/organization/NSF>,
+        <http://example.org/aikg/person/Alex_Tamkin>,
+        <http://example.org/aikg/person/Andreas_Terzis>,
+        <http://example.org/aikg/person/Beth_Barnes>,
+        <http://example.org/aikg/person/Collin_Burns>,
+        <http://example.org/aikg/person/D_Sculley>,
+        <http://example.org/aikg/person/Florian_Tramèr>,
+        <http://example.org/aikg/person/Henry_Zhu>,
+        <http://example.org/aikg/person/Jacob_Hilton>,
+        <http://example.org/aikg/person/Jonathan_Uesato>,
+        <http://example.org/aikg/person/Kevin_Liu>,
+        <http://example.org/aikg/person/Leo_Gao>,
+        <http://example.org/aikg/person/Mantas_Mazeika>,
+        <http://example.org/aikg/person/Mark_Xu>,
+        <http://example.org/aikg/person/Owain_Evans>,
+        <http://example.org/aikg/person/Sidney_Hough>,
+        <http://example.org/aikg/person/Stella_Biderman>,
+        <http://example.org/aikg/person/Steven_Basart>,
+        <http://example.org/aikg/person/Thomas_Dietterich> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/AI_Safety_&_Ethics> ;
+    ex:similarTo <http://example.org/aikg/paper/2204.05149>,
+        <http://example.org/aikg/paper/2212.08073> ;
+    dc:creator "Dan Hendrycks",
+        "Jacob Steinhardt",
+        "John Schulman",
+        "Nicholas Carlini",
+        "U Berkeley" ;
+    dc:description "Machine learning (ML) systems are rapidly increasing in size, are acquiring new capabilities, and are increasingly deployed in high-stakes settings. As with other powerful technologies, safety for ML should be a leading research priority. In response to emerging safety challenges in ML, such as those introduced by recent large-scale models, we provide a new roadmap for ML Safety and refine the technical problems that the field needs to address. We present four problems ready for research, namely withstanding hazards (\"Robustness\"), identifying hazards (\"Monitoring\"), steering ML systems (\"Alignment\"), and reducing deployment hazards (\"Systemic Safety\"). Throughout, we clarify each problem's motivation and provide concrete research directions." ;
+    dc:identifier "2109.13916" ;
+    dc:title "Unsolved Problems in ML Safety" ;
+    owl:sameAs <https://arxiv.org/abs/2109.13916> .
+
+<http://example.org/aikg/paper/2212.08073> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/Amazon_MTurk>,
+        <http://example.org/aikg/organization/Surge_AI>,
+        <http://example.org/aikg/organization/Upwork>,
+        <http://example.org/aikg/person/Alex_Tamkin>,
+        <http://example.org/aikg/person/Daniela_Amodei>,
+        <http://example.org/aikg/person/Filipe_Dobreira>,
+        <http://example.org/aikg/person/Guro_Khundadze>,
+        <http://example.org/aikg/person/Jamie_Kerr>,
+        <http://example.org/aikg/person/Jarrah_Bloomfield>,
+        <http://example.org/aikg/person/Jeffrey_Ladish>,
+        <http://example.org/aikg/person/Jia_Yuan_Loke>,
+        <http://example.org/aikg/person/Maja_Trebacz>,
+        <http://example.org/aikg/person/Paul_Christiano>,
+        <http://example.org/aikg/person/Rebecca_Raible>,
+        <http://example.org/aikg/person/Rob_Gilson>,
+        <http://example.org/aikg/person/Rune_Kvist>,
+        <http://example.org/aikg/person/Sebastian_Conybeare>,
+        <http://example.org/aikg/person/Timothy_Telleen-Lawton> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Reinforcement_Learning> ;
+    dc:creator "Amanda Askell",
+        "Andy Jones",
+        "Anna Chen",
+        "Anna Goldie",
+        "Azalia Mirhoseini",
+        "Ben Mann",
+        "Cameron Mckinnon",
+        "Carol Chen",
+        "Catherine Olsson",
+        "Christopher Olah",
+        "Danny Hernandez",
+        "Dario Amodei",
+        "Dawn Drain",
+        "Deep Ganguli",
+        "Dustin Li",
+        "El Showk",
+        "Eli Tran-Johnson",
+        "Ethan Perez",
+        "Jackson Kernion",
+        "Jamie Kerr",
+        "Jared Kaplan",
+        "Jared Mueller",
+        "Jeffrey Ladish",
+        "Joshua Landau",
+        "Kamal Ndousse",
+        "Kamile Lukosuite",
+        "Liane Lovitt",
+        "Michael Sellitto",
+        "Nelson Elhage",
+        "Nicholas Joseph",
+        "Nicholas Schiefer",
+        "Noemi Mercado",
+        "Nova Dassarma",
+        "Robert Lasenby",
+        "Robin Larson",
+        "Sam Mccandlish",
+        "Sam Ringer",
+        "Samuel Bowman",
+        "Sandipan Kundu",
+        "Saurav Kadavath",
+        "Scott Johnston",
+        "Shauna Kravec",
+        "Stanislav Fort",
+        "Tamera Lanham",
+        "Timothy Telleen-Lawton",
+        "Tom Brown",
+        "Tom Conerly",
+        "Tom Henighan",
+        "Tristan Hume",
+        "Yuntao Bai",
+        "Zac Hatfield-Dodds" ;
+    dc:description "As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through selfimprovement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but nonevasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels." ;
+    dc:identifier "2212.08073" ;
+    dc:title "Constitutional AI: Harmlessness from AI Feedback" ;
+    owl:sameAs <https://arxiv.org/abs/2212.08073> .
+
+<http://example.org/aikg/paper/2301.13688> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/person/Colin_Raffel>,
+        <http://example.org/aikg/person/Ed_H_Chi>,
+        <http://example.org/aikg/person/Xinyun_Chen> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Generative_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Adam Roberts",
+        "Albert Webson",
+        "Barret Zoph",
+        "Chung Tay",
+        "Denny Zhou Quoc",
+        "Hyung Won",
+        "Jason Wei",
+        "Le Hou",
+        "Shayne Longpre",
+        "Tu Vu",
+        "V Le" ;
+    dc:description "We study the design decisions of publicly available instruction tuning methods, and break down the development of Flan 2022 models (Chung et al., 2022). Through careful ablation studies on the Flan Collection of instruction tuning tasks and methods, we tease apart the effect of design decisions that enable Flan-T5 to outperform prior work by 3-17%+ across evaluation settings. We find task balancing and enrichment techniques are overlooked but critical to effective instruction tuning, and in particular, training with mixed prompt settings (zero-shot, few-shot, and chain-of-thought) actually yields stronger (2%+) performance in all settings. In further experiments, we show Flan-T5 requires less finetuning to converge higher and faster than T5 on single downstream tasks-motivating instruction-tuned models as more computationallyefficient starting checkpoints for new tasks. Finally, to accelerate research on instruction tuning, we make the Flan 2022 collection of datasets, templates, and methods publicly available. 1" ;
+    dc:identifier "2301.13688" ;
+    dc:title "The Flan Collection: Designing Data and Methods for Effective Instruction Tuning" ;
+    owl:sameAs <https://arxiv.org/abs/2301.13688> .
+
+<http://example.org/aikg/paper/1707.06347> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/OpenAI>,
+        <http://example.org/aikg/person/Peter_Chen>,
+        <http://example.org/aikg/person/Rocky_Duan> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Reinforcement_Learning> ;
+    ex:similarTo <http://example.org/aikg/paper/2005.12729>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2212.08073> ;
+    dc:creator "Alec Radford",
+        "Filip Wolski",
+        "John Schulman",
+        "Oleg Klimov",
+        "Prafulla Dhariwal" ;
+    dc:description "We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a \"surrogate\" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time." ;
+    dc:identifier "1707.06347" ;
+    dc:title "Proximal Policy Optimization Algorithms" ;
+    owl:sameAs <https://arxiv.org/abs/1707.06347> .
+
+<http://example.org/aikg/paper/2105.05233> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/person/Alec_Radford>,
+        <http://example.org/aikg/person/Mark_Chen>,
+        <http://example.org/aikg/person/Pranav_Shyam>,
+        <http://example.org/aikg/person/Raul_Puri> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Computer_Vision> ;
+    ex:similarTo <http://example.org/aikg/paper/2112.01573>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2208.01618> ;
+    dc:creator "Alex Nichol",
+        "Prafulla Dhariwal" ;
+    dc:description "We show that diffusion models can achieve image sample quality superior to the current state-of-the-art generative models. We achieve this on unconditional image synthesis by finding a better architecture through a series of ablations. For conditional image synthesis, we further improve sample quality with classifier guidance: a simple, compute-efficient method for trading off diversity for fidelity using gradients from a classifier. We achieve an FID of 2.97 on ImageNet 128×128, 4.59 on ImageNet 256×256, and 7.72 on ImageNet 512×512, and we match BigGAN-deep even with as few as 25 forward passes per sample, all while maintaining better coverage of the distribution. Finally, we find that classifier guidance combines well with upsampling diffusion models, further improving FID to 3.94 on ImageNet 256×256 and 3.85 on ImageNet 512×512. We release our code at  https://github.com/openai/guided-diffusion ." ;
+    dc:identifier "2105.05233" ;
+    dc:title "Diffusion Models Beat GANs on Image Synthesis" ;
+    owl:sameAs <https://arxiv.org/abs/2105.05233> .
+
+<http://example.org/aikg/paper/1207.0580> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    ex:similarTo <http://example.org/aikg/paper/1312.5602>,
+        <http://example.org/aikg/paper/1406.2661>,
+        <http://example.org/aikg/paper/1505.04597>,
+        <http://example.org/aikg/paper/1506.01497>,
+        <http://example.org/aikg/paper/1512.03385>,
+        <http://example.org/aikg/paper/1706.03762>,
+        <http://example.org/aikg/paper/1810.04805>,
+        <http://example.org/aikg/paper/2004.10934>,
+        <http://example.org/aikg/paper/2005.12729>,
+        <http://example.org/aikg/paper/2005.14165>,
+        <http://example.org/aikg/paper/2010.11929>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2109.13916>,
+        <http://example.org/aikg/paper/2204.05149>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "A Krizhevsky",
+        "G Hinton",
+        "I Sutskever",
+        "N Srivastava",
+        "R Salakhutdinov" ;
+    dc:description "When a large feedforward neural network is trained on a small training set, it typically performs poorly on held-out test data. This \"overfitting\" is greatly reduced by randomly omitting half of the feature detectors on each training case. This prevents complex co-adaptations in which a feature detector is only helpful in the context of several other specific feature detectors. Instead, each neuron learns to detect a feature that is generally helpful for producing the correct answer given the combinatorially large variety of internal contexts in which it must operate. Random \"dropout\" gives big improvements on many benchmark tasks and sets new records for speech and object recognition." ;
+    dc:identifier "1207.0580" ;
+    dc:title "Improving neural networks by preventing co-adaptation of feature detectors" ;
+    owl:sameAs <https://arxiv.org/abs/1207.0580> .
+
+<http://example.org/aikg/paper/1406.2661> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/CIFAR>,
+        <http://example.org/aikg/organization/Calcul_Québec>,
+        <http://example.org/aikg/organization/Canada_Research_Chairs>,
+        <http://example.org/aikg/organization/Compute_Canada>,
+        <http://example.org/aikg/organization/Les_Trois_Brasseurs>,
+        <http://example.org/aikg/person/Arnaud_Bergeron>,
+        <http://example.org/aikg/person/Frédéric_Bastien>,
+        <http://example.org/aikg/person/Ian_Goodfellow> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Generative_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/1512.03385>,
+        <http://example.org/aikg/paper/1707.06347>,
+        <http://example.org/aikg/paper/1810.04805>,
+        <http://example.org/aikg/paper/2004.10934>,
+        <http://example.org/aikg/paper/2005.12729>,
+        <http://example.org/aikg/paper/2006.11239>,
+        <http://example.org/aikg/paper/2103.00020>,
+        <http://example.org/aikg/paper/2105.05233>,
+        <http://example.org/aikg/paper/2109.13916>,
+        <http://example.org/aikg/paper/2112.01573>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2208.01618>,
+        <http://example.org/aikg/paper/2212.08073> ;
+    dc:creator "Aaron Courville",
+        "Bing Xu",
+        "David Warde-Farley",
+        "Delhi",
+        "Ian Goodfellow",
+        "Jean Pouget-Abadie",
+        "Mehdi Mirza",
+        "Sherjil Ozair",
+        "Yoshua Bengio" ;
+    dc:description "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1 2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples." ;
+    dc:identifier "1406.2661" ;
+    dc:title "Generative Adversarial Nets" ;
+    owl:sameAs <https://arxiv.org/abs/1406.2661> .
+
+<http://example.org/aikg/paper/2112.01573> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Generative_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/2208.01618>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Chengyue Gong",
+        "Hao Su",
+        "Lemeng Wu",
+        "Qiang Liu",
+        "Shujian Zhang",
+        "Xingchao Liu" ;
+    dc:description "Figure 1. Generated images for three query texts about dogs with different methods, including naive optimization with CLIP+GAN (top left of each panel), BigSleep [20] (top right of each panel), and FuseDream (the bottom row) with BigGAN-256 (left) and 512 (right)." ;
+    dc:identifier "2112.01573" ;
+    dc:title "FuseDream: Training-Free Text-to-Image Generation with Improved CLIP+GAN Space Optimization" ;
+    owl:sameAs <https://arxiv.org/abs/2112.01573> .
+
+<http://example.org/aikg/paper/2203.02155> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/OpenAI>,
+        <http://example.org/aikg/person/Alec_Radford>,
+        <http://example.org/aikg/person/Beth_Barnes>,
+        <http://example.org/aikg/person/Boris_Power>,
+        <http://example.org/aikg/person/Cathy_Yeh>,
+        <http://example.org/aikg/person/Che_Chang>,
+        <http://example.org/aikg/person/Christy_Dennison>,
+        <http://example.org/aikg/person/Daniel_Ziegler>,
+        <http://example.org/aikg/person/Gillian_Hadfield>,
+        <http://example.org/aikg/person/Gretchen_Krueger>,
+        <http://example.org/aikg/person/Irene_Soliaman>,
+        <http://example.org/aikg/person/Jason_Kwon>,
+        <http://example.org/aikg/person/Jonathan_Ward>,
+        <http://example.org/aikg/person/Josh_Achiam>,
+        <http://example.org/aikg/person/Lilian_Weng>,
+        <http://example.org/aikg/person/Matt_Knight>,
+        <http://example.org/aikg/person/Miles_Brundage>,
+        <http://example.org/aikg/person/Nick_Cammaratta>,
+        <http://example.org/aikg/person/Pranav_Shyam>,
+        <http://example.org/aikg/person/Steven_Adler>,
+        <http://example.org/aikg/person/Tyna_Eloundou>,
+        <http://example.org/aikg/person/William_Saunders> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Language_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/2208.01618>,
+        <http://example.org/aikg/paper/2212.08073>,
+        <http://example.org/aikg/paper/2301.13688>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Alex Ray",
+        "Amanda Askell",
+        "Carroll Wainwright",
+        "Chong Zhang",
+        "Diogo Almeida",
+        "Fraser Kelton",
+        "Jacob Hilton",
+        "Jan Leike",
+        "Jeff Wu",
+        "John Schulman",
+        "Katarina Slama",
+        "Long Ouyang",
+        "Luke Miller",
+        "Maddie Simens",
+        "Openai",
+        "Pamela Mishkin",
+        "Paul Christiano",
+        "Peter Welinder",
+        "Ryan Lowe",
+        "Sandhini Agarwal",
+        "Xu Jiang" ;
+    dc:description "Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. We then collect a dataset of rankings of model outputs, which we use to further fine-tune this supervised model using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on our prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent." ;
+    dc:identifier "2203.02155" ;
+    dc:title "Training language models to follow instructions with human feedback" ;
+    owl:sameAs <https://arxiv.org/abs/2203.02155> .
+
+<http://example.org/aikg/paper/1505.04597> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/BMBF>,
+        <http://example.org/aikg/organization/EXC>,
+        <http://example.org/aikg/organization/Excellence_Initiative> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    ex:similarTo <http://example.org/aikg/paper/1506.01497>,
+        <http://example.org/aikg/paper/1512.03385>,
+        <http://example.org/aikg/paper/1706.03762>,
+        <http://example.org/aikg/paper/1707.06347>,
+        <http://example.org/aikg/paper/1810.04805>,
+        <http://example.org/aikg/paper/2004.10934>,
+        <http://example.org/aikg/paper/2005.12729>,
+        <http://example.org/aikg/paper/2005.14165>,
+        <http://example.org/aikg/paper/2010.11929>,
+        <http://example.org/aikg/paper/2103.00020>,
+        <http://example.org/aikg/paper/2105.05233>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288> ;
+    dc:creator "Olaf Ronneberger",
+        "Philipp Fischer",
+        "Thomas Brox" ;
+    dc:description "There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. Using the same network trained on transmitted light microscopy images (phase contrast and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin. Moreover, the network is fast. Segmentation of a 512x512 image takes less than a second on a recent GPU. The full implementation (based on Caffe) and the trained networks are available at  http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net ." ;
+    dc:identifier "1505.04597" ;
+    dc:title "U-Net: Convolutional Networks for Biomedical Image Segmentation" ;
+    owl:sameAs <https://arxiv.org/abs/1505.04597> .
+
+<http://example.org/aikg/paper/1706.03762> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/person/Nal_Kalchbrenner>,
+        <http://example.org/aikg/person/Stephan_Gouws> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    ex:similarTo <http://example.org/aikg/paper/1810.04805>,
+        <http://example.org/aikg/paper/2004.10934>,
+        <http://example.org/aikg/paper/2005.14165>,
+        <http://example.org/aikg/paper/2010.11929>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2112.01573>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2203.02155>,
+        <http://example.org/aikg/paper/2208.01618>,
+        <http://example.org/aikg/paper/2301.13688>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Aidan Gomez",
+        "Ashish Vaswani",
+        "Google Brain",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Niki Parmar",
+        "Noam Shazeer",
+        "Łukasz Kaiser" ;
+    dc:description "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. * Equal contribution. Listing order is random. Jakob proposed replacing RNNs with self-attention and started the effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and has been crucially involved in every aspect of this work. Noam proposed scaled dot-product attention, multi-head attention and the parameter-free position representation and became the other person involved in nearly every detail. Niki designed, implemented, tuned and evaluated countless model variants in our original codebase and tensor2tensor. Llion also experimented with novel model variants, was responsible for our initial codebase, and efficient inference and visualizations. Lukasz and Aidan spent countless long days designing various parts of and implementing tensor2tensor, replacing our earlier codebase, greatly improving results and massively accelerating our research. † Work performed while at Google Brain. ‡ Work performed while at Google Research." ;
+    dc:identifier "1706.03762" ;
+    dc:title "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works. Attention Is All You Need" ;
+    owl:sameAs <https://arxiv.org/abs/1706.03762> .
+
+<http://example.org/aikg/paper/1810.04805> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Language_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/2004.10934>,
+        <http://example.org/aikg/paper/2005.14165>,
+        <http://example.org/aikg/paper/2010.11929>,
+        <http://example.org/aikg/paper/2103.00020>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2112.01573>,
+        <http://example.org/aikg/paper/2203.02155>,
+        <http://example.org/aikg/paper/2208.01618>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Jacob Devlin",
+        "Kenton Lee",
+        "Kristina Toutanova",
+        "Ming-Wei Chang" ;
+    dc:description "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018) , BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be finetuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial taskspecific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement)." ;
+    dc:identifier "1810.04805" ;
+    dc:title "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" ;
+    owl:sameAs <https://arxiv.org/abs/1810.04805> .
+
+<http://example.org/aikg/paper/2010.11929> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/Google>,
+        <http://example.org/aikg/person/Andreas_Steiner>,
+        <http://example.org/aikg/person/Aravindh_Mahendran>,
+        <http://example.org/aikg/person/Ashish_Vaswani>,
+        <http://example.org/aikg/person/Colin_Raffel>,
+        <http://example.org/aikg/person/Daniel_Keysers>,
+        <http://example.org/aikg/person/Dmitry_Lepikhin>,
+        <http://example.org/aikg/person/Joan_Puigcerver>,
+        <http://example.org/aikg/person/Mario_Lučić>,
+        <http://example.org/aikg/person/Maxim_Neumann>,
+        <http://example.org/aikg/person/Noam_Shazeer> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Computer_Vision> ;
+    ex:similarTo <http://example.org/aikg/paper/2103.00020>,
+        <http://example.org/aikg/paper/2105.05233>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2112.01573>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2208.01618>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Alexander Kolesnikov",
+        "Alexey Dosovitskiy",
+        "Dirk Weissenborn",
+        "Georg Heigold",
+        "Jakob Uszkoreit",
+        "Lucas Beyer",
+        "Matthias Minderer",
+        "Mostafa Dehghani",
+        "Neil Houlsby",
+        "Sylvain Gelly",
+        "Thomas Unterthiner",
+        "Xiaohua Zhai" ;
+    dc:description "While the Transformer architecture has become the de-facto standard for natural language processing tasks, its applications to computer vision remain limited. In vision, attention is either applied in conjunction with convolutional networks, or used to replace certain components of convolutional networks while keeping their overall structure in place. We show that this reliance on CNNs is not necessary and a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks. When pre-trained on large amounts of data and transferred to multiple mid-sized or small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train. 1" ;
+    dc:identifier "2010.11929" ;
+    dc:title "AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE" ;
+    owl:sameAs <https://arxiv.org/abs/2010.11929> .
+
+<http://example.org/aikg/paper/2103.00020> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/OpenAI>,
+        <http://example.org/aikg/person/Gillian_Hadfield>,
+        <http://example.org/aikg/person/Irene_Solaiman>,
+        <http://example.org/aikg/person/Ishaan_Gulrajani>,
+        <http://example.org/aikg/person/Miles_Brundage>,
+        <http://example.org/aikg/person/Susan_Zhang> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Computer_Vision> ;
+    ex:similarTo <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2112.01573>,
+        <http://example.org/aikg/paper/2203.02155>,
+        <http://example.org/aikg/paper/2208.01618>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Aditya Ramesh",
+        "Alec Radford",
+        "Amanda Askell",
+        "Chris Hallacy",
+        "Gabriel Goh",
+        "Girish Sastry",
+        "Gretchen Krueger",
+        "Ilya Sutskever",
+        "Jack Clark",
+        "Jong Kim",
+        "Pamela Mishkin",
+        "Sandhini Agarwal" ;
+    dc:description "State-of-the-art computer vision systems are trained to predict a fixed set of predetermined object categories. This restricted form of supervision limits their generality and usability since additional labeled data is needed to specify any other visual concept. Learning directly from raw text about images is a promising alternative which leverages a much broader source of supervision. We demonstrate that the simple pre-training task of predicting which caption goes with which image is an efficient and scalable way to learn SOTA image representations from scratch on a dataset of 400 million (image, text) pairs collected from the internet. After pre-training, natural language is used to reference learned visual concepts (or describe new ones) enabling zero-shot transfer of the model to downstream tasks. We study the performance of this approach by benchmarking on over 30 different existing computer vision datasets, spanning tasks such as OCR, action recognition in videos, geo-localization, and many types of fine-grained object classification. The model transfers non-trivially to most tasks and is often competitive with a fully supervised baseline without the need for any dataset specific training. For instance, we match the accuracy of the original ResNet-50 on ImageNet zero-shot without needing to use any of the 1.28 million training examples it was trained on. We release our code and pre-trained model weights at  https://github.com/OpenAI/CLIP ." ;
+    dc:identifier "2103.00020" ;
+    dc:title "Learning Transferable Visual Models From Natural Language Supervision" ;
+    owl:sameAs <https://arxiv.org/abs/2103.00020> .
+
+<http://example.org/aikg/paper/2112.10752> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Generative_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/2208.01618> ;
+    dc:creator "Andreas Blattmann",
+        "Björn Ommer",
+        "Dominik Lorenz",
+        "Patrick Esser",
+        "Robin Rombach" ;
+    dc:description "By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models (DMs) achieve state-of-the-art synthesis results on image data and beyond. Additionally, their formulation allows for a guiding mechanism to control the image generation process without retraining. However, since these models typically operate directly in pixel space, optimization of powerful DMs often consumes hundreds of GPU days and inference is expensive due to sequential evaluations. To enable DM training on limited computational resources while retaining their quality and flexibility, we apply them in the latent space of powerful pretrained autoencoders. In contrast to previous work, training diffusion models on such a representation allows for the first time to reach a near-optimal point between complexity reduction and detail preservation, greatly boosting visual fidelity. By introducing cross-attention layers into the model architecture, we turn diffusion models into powerful and flexible generators for general conditioning inputs such as text or bounding boxes and high-resolution synthesis becomes possible in a convolutional manner. Our latent diffusion models (LDMs) achieve new state-of-the-art scores for image inpainting and class-conditional image synthesis and highly competitive performance on various tasks, including text-to-image synthesis, unconditional image generation and super-resolution, while significantly reducing computational requirements compared to pixel-based DMs." ;
+    dc:identifier "2112.10752" ;
+    dc:title "High-Resolution Image Synthesis with Latent Diffusion Models" ;
+    owl:sameAs <https://arxiv.org/abs/2112.10752> .
+
+<http://example.org/aikg/paper/2005.14165> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/OpenAI>,
+        <http://example.org/aikg/person/Brooke_Chan>,
+        <http://example.org/aikg/person/Chelsea_Voss>,
+        <http://example.org/aikg/person/David_Luan>,
+        <http://example.org/aikg/person/Greg_Brockman>,
+        <http://example.org/aikg/person/Harrison_Edwards>,
+        <http://example.org/aikg/person/Irene_Solaiman>,
+        <http://example.org/aikg/person/Jakub_Pachocki>,
+        <http://example.org/aikg/person/Michael_Petrov>,
+        <http://example.org/aikg/person/Ryan_Lowe>,
+        <http://example.org/aikg/person/Szymon_Sidor>,
+        <http://example.org/aikg/person/Yura_Burda> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    ex:similarTo <http://example.org/aikg/paper/2010.11929>,
+        <http://example.org/aikg/paper/2103.00020>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2112.01573>,
+        <http://example.org/aikg/paper/2203.02155>,
+        <http://example.org/aikg/paper/2208.01618>,
+        <http://example.org/aikg/paper/2301.13688>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Aditya Ramesh",
+        "Alec Radford",
+        "Amanda Askell",
+        "Ariel Herbert-Voss",
+        "Arvind Neelakantan",
+        "Benjamin Chess",
+        "Benjamin Mann",
+        "Christopher Berner",
+        "Christopher Hesse",
+        "Daniel Ziegler",
+        "Dario Openai",
+        "Eric Sigler",
+        "Girish Sastry",
+        "Gretchen Krueger",
+        "Ilya Sutskever",
+        "Jack Clark",
+        "Jared Kaplan",
+        "Jeffrey Wu",
+        "Mark Chen",
+        "Mateusz Litwin",
+        "Melanie Subbiah",
+        "Nick Ryder",
+        "Prafulla Dhariwal",
+        "Pranav Shyam",
+        "Rewon Child",
+        "Sam Mccandlish",
+        "Sandhini Agarwal",
+        "Scott Gray",
+        "Tom Brown",
+        "Tom Henighan" ;
+    dc:description "Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions -something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art finetuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general." ;
+    dc:identifier "2005.14165" ;
+    dc:title "Language Models are Few-Shot Learners" ;
+    owl:sameAs <https://arxiv.org/abs/2005.14165> .
+
+<http://example.org/aikg/paper/2005.12729> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/Microsoft_Corporation>,
+        <http://example.org/aikg/organization/NSF>,
+        <http://example.org/aikg/person/Chloe_Hsu> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    ex:similarTo <http://example.org/aikg/paper/2005.14165>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2109.13916>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2203.02155>,
+        <http://example.org/aikg/paper/2204.05149>,
+        <http://example.org/aikg/paper/2212.08073>,
+        <http://example.org/aikg/paper/2301.13688>,
+        <http://example.org/aikg/paper/2302.13971> ;
+    dc:creator "Aleksander Ądry",
+        "Andrew Ilyas",
+        "Dimitris Tsipras",
+        "Firdaus Janoos",
+        "Larry Rudolph",
+        "Logan Engstrom",
+        "Shibani Santurkar",
+        "Two Sigma" ;
+    dc:description "We study the roots of algorithmic progress in deep policy gradient algorithms through a case study on two popular algorithms: Proximal Policy Optimization (PPO) and Trust Region Policy Optimization (TRPO). Specifically, we investigate the consequences of \"code-level optimizations:\" algorithm augmentations found only in implementations or described as auxiliary details to the core algorithm. Seemingly of secondary importance, such optimizations turn out to have a major impact on agent behavior. Our results show that they (a) are responsible for most of PPO's gain in cumulative reward over TRPO, and (b) fundamentally change how RL methods function. These insights show the difficulty and importance of attributing performance gains in deep reinforcement learning. * Equal contribution. Work done in part while interning at Two Sigma. 1 Note that these code-level optimizations are separate from \"implementation choices\" like the choice of PyTorch versus TensorFlow in that they intentionally change the training algorithm's operation." ;
+    dc:identifier "2005.12729" ;
+    dc:title "IMPLEMENTATION MATTERS IN DEEP POLICY GRADIENTS: A CASE STUDY ON PPO AND TRPO" ;
+    owl:sameAs <https://arxiv.org/abs/2005.12729> .
+
+<http://example.org/aikg/paper/2307.09288> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Language_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Adina Williams",
+        "Alan Schelten",
+        "Amjad Almahairi",
+        "Andrew Poulton",
+        "Angela Fan",
+        "Anthony Hartshorn",
+        "Artem Korenev",
+        "Aurelien Rodriguez",
+        "Binh Tang",
+        "Brian Fuller",
+        "Cristian Ferrer",
+        "Cynthia Gao",
+        "Dan Bikel",
+        "David Esiobu",
+        "Diana Liskovich",
+        "Ellen Tan",
+        "Eric Michael",
+        "Guillem Cucurull",
+        "Hakan Inan",
+        "Hugo Touvron",
+        "Igor Molybog",
+        "Iliyan Zarov",
+        "Isabel Kloumann",
+        "Jenya Lee",
+        "Jeremy Fu",
+        "Jeremy Reizenstein",
+        "Jian Kuan",
+        "Jude Fernandes",
+        "Kalyan Saladi",
+        "Kevin Stone",
+        "Louis Martin",
+        "Lukas Blecher",
+        "Madian Khabsa",
+        "Marcin Kardas",
+        "Marie-Anne Lachaux",
+        "Melanie Kambadur",
+        "Meta Genai",
+        "Moya Chen",
+        "Naman Goyal",
+        "Nikolay Bashlykov",
+        "Peter Albert",
+        "Prajjwal Bhargava",
+        "Pushkar Mishra",
+        "Puxin Xu",
+        "Rashi Rungta",
+        "Robert Stojnic",
+        "Ross Taylor",
+        "Ruan Silva",
+        "Rui Hou",
+        "Saghar Hosseini",
+        "Sergey Edunov",
+        "Sharan Narang",
+        "Shruti Bhosale",
+        "Singh Koura",
+        "Smith Ranjan",
+        "Soumya Batra",
+        "Subramanian Xiaoqing",
+        "Thibaut Lavril",
+        "Thomas Scialom",
+        "Todor Mihaylov",
+        "Vedanuj Goswami",
+        "Viktor Kerkez",
+        "Wenyin Fu",
+        "Xavier Martinet",
+        "Yasmine Babaei",
+        "Yinghai Lu",
+        "Yixin Nie",
+        "Yuchen Zhang",
+        "Yuning Mao",
+        "Zheng Yan" ;
+    dc:description "In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases. Our models outperform open-source chat models on most benchmarks we tested, and based on our human evaluations for helpfulness and safety, may be a suitable substitute for closedsource models. We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs." ;
+    dc:identifier "2307.09288" ;
+    dc:title "Llama 2: Open Foundation and Fine-Tuned Chat Models" ;
+    owl:sameAs <https://arxiv.org/abs/2307.09288> .
+
+<http://example.org/aikg/paper/1512.03385> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Optimization_&_Training> ;
+    ex:similarTo <http://example.org/aikg/paper/1706.03762>,
+        <http://example.org/aikg/paper/1707.06347>,
+        <http://example.org/aikg/paper/1810.04805>,
+        <http://example.org/aikg/paper/2004.10934>,
+        <http://example.org/aikg/paper/2005.12729>,
+        <http://example.org/aikg/paper/2005.14165>,
+        <http://example.org/aikg/paper/2010.11929>,
+        <http://example.org/aikg/paper/2103.00020>,
+        <http://example.org/aikg/paper/2105.05233>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2109.13916>,
+        <http://example.org/aikg/paper/2112.10752>,
+        <http://example.org/aikg/paper/2204.05149>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Jian Sun",
+        "Kaiming He",
+        "Shaoqing Ren",
+        "Xiangyu Zhang" ;
+    dc:description "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers-8× deeper than VGG nets [41] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions 1 , where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation." ;
+    dc:identifier "1512.03385" ;
+    dc:title "Deep Residual Learning for Image Recognition" ;
+    owl:sameAs <https://arxiv.org/abs/1512.03385> .
+
+<http://example.org/aikg/paper/2004.10934> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Computer_Vision> ;
+    ex:similarTo <http://example.org/aikg/paper/2005.12729>,
+        <http://example.org/aikg/paper/2005.14165>,
+        <http://example.org/aikg/paper/2010.11929>,
+        <http://example.org/aikg/paper/2103.00020>,
+        <http://example.org/aikg/paper/2105.05233>,
+        <http://example.org/aikg/paper/2106.09685>,
+        <http://example.org/aikg/paper/2109.13916>,
+        <http://example.org/aikg/paper/2204.05149>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288> ;
+    dc:creator "Alexey Bochkovskiy",
+        "Chien-Yao Wang",
+        "Hong-Yuan Liao" ;
+    dc:description "There are a huge number of features which are said to improve Convolutional Neural Network (CNN) accuracy. Practical testing of combinations of such features on large datasets, and theoretical justification of the result, is required. Some features operate on certain models exclusively and for certain problems exclusively, or only for small-scale datasets; while some features, such as batch-normalization and residual-connections, are applicable to the majority of models, tasks, and datasets. We assume that such universal features include Weighted-Residual-Connections (WRC), Cross-Stage-Partial-connections (CSP), Cross mini-Batch Normalization (CmBN), Self-adversarial-training (SAT) and Mish-activation. We use new features: WRC, CSP, CmBN, SAT, Mish activation, Mosaic data augmentation, CmBN, DropBlock regularization, and CIoU loss, and combine some of them to achieve state-of-the-art results: 43.5% AP (65.7% AP 50 ) for the MS COCO dataset at a realtime speed of ∼65 FPS on Tesla V100. Source code is at  https://github.com/AlexeyAB/darknet ." ;
+    dc:identifier "2004.10934" ;
+    dc:title "YOLOv4: Optimal Speed and Accuracy of Object Detection" ;
+    owl:sameAs <https://arxiv.org/abs/2004.10934> .
+
+<http://example.org/aikg/paper/2208.01618> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/BSF>,
+        <http://example.org/aikg/organization/ISF>,
+        <http://example.org/aikg/person/Blavatnik>,
+        <http://example.org/aikg/person/Haggai_Maron>,
+        <http://example.org/aikg/person/Len_Blavatnik>,
+        <http://example.org/aikg/person/Omri_Avrahami>,
+        <http://example.org/aikg/person/Roni_Paiss>,
+        <http://example.org/aikg/person/Tom_Bagshaw>,
+        <http://example.org/aikg/person/Yael_Vinker> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Language_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Amit Bermano",
+        "Daniel Cohen-Or",
+        "Gal Chechik",
+        "Or Patashnik",
+        "Rinon Gal",
+        "Yuval Alaluf",
+        "Yuval Atzmon" ;
+    dc:description "Text-to-image models offer unprecedented freedom to guide creation through natural language. Yet, it is unclear how such freedom can be exercised to generate images of specific unique concepts, modify their appearance, or compose them in new roles and novel scenes. In other words, we ask: how can we use language-guided models to turn our cat into a painting, or imagine a new product based on our favorite toy? Here we present a simple approach that allows such creative freedom. Using only 3-5 images of a user-provided concept, like an object or a style, we learn to represent it through new \"words\" in the embedding space of a frozen text-to-image model. These \"words\" can be composed into natural language sentences, guiding personalized creation in an intuitive way. Notably, we find evidence that a single word embedding is sufficient for capturing unique and varied concepts. We compare our approach to a wide range of baselines, and demonstrate that it can more faithfully portray the concepts across a range of applications and tasks. Our code, data and new words will be available at:  https://textual-inversion.  github.io  → Input samples invert ----→ \"S * \" \"An oil painting of S * \" \"App icon of S * \" \"Elmo sitting in the same pose as S * \" \"Crochet S * \" → Input samples invert ----→ \"S * \" \"Painting of two S * fishing on a boat\" \"A S * backpack\" \"Banksy art of S * \" \"A S * themed lunchbox\" Preprint. Under review." ;
+    dc:identifier "2208.01618" ;
+    dc:title "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion" ;
+    owl:sameAs <https://arxiv.org/abs/2208.01618> .
+
+<http://example.org/aikg/paper/2302.13971> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/xformers>,
+        <http://example.org/aikg/person/Artem_Korenev>,
+        <http://example.org/aikg/person/Daniel_Haziza>,
+        <http://example.org/aikg/person/Francisco_Massa>,
+        <http://example.org/aikg/person/Jane_Yu>,
+        <http://example.org/aikg/person/Jeremy_Reizenstein>,
+        <http://example.org/aikg/person/Kalyan_Saladi>,
+        <http://example.org/aikg/person/Luca_Wehrstedt>,
+        <http://example.org/aikg/person/Patrick_Labatut>,
+        <http://example.org/aikg/person/Pierre-Emmanuel_Mazaré>,
+        <http://example.org/aikg/person/Shubho_Sengupta>,
+        <http://example.org/aikg/person/Stephen_Roller>,
+        <http://example.org/aikg/person/Susan_Zhang>,
+        <http://example.org/aikg/person/Vegard_Mella>,
+        <http://example.org/aikg/person/Yongyi_Hu> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Language_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Aakanksha Chen",
+        "Aakanksha Chowdhery",
+        "Abhishek Rao",
+        "Adam Devlin",
+        "Adam Roberts",
+        "Adams Mishra",
+        "Aditya Ramesh",
+        "Aitor Lewkowycz",
+        "Al- Bert Webson",
+        "Alec Radford",
+        "Alethea Power",
+        "Alex Nichol",
+        "Alex Paino",
+        "Alex Ray",
+        "Alexander Spiridonov",
+        "Amanda Askell",
+        "An- Drew Huang",
+        "Andrew Carr",
+        "Andrew Dai",
+        "Anselm Levskaya",
+        "Ariel Herbert-Voss",
+        "Arvind Neelakantan",
+        "Ashish Sabharwal",
+        "Aurelien Rodriguez",
+        "Baptiste Rozière",
+        "Barret Zoph",
+        "Ben Hutchinson",
+        "Benjamin Chess",
+        "Benjamin Mann",
+        "Bob Mcgrew",
+        "Boolq",
+        "Bren- Nan Saeta",
+        "Brooke Chan",
+        "Carissa Schoenick",
+        "Charles Sutton",
+        "Christopher Berner",
+        "Christopher Clark",
+        "Christopher Hesse",
+        "Clemens Winter",
+        "Daniel Ziegler",
+        "Daphne Ippolito",
+        "Dario Amodei",
+        "Dasha Chowdh- Ery",
+        "Dave Cum- Mings",
+        "David Dohan",
+        "David Luan",
+        "Denny Roberts",
+        "Denny Zhou",
+        "Douglas Eck",
+        "Ed Petrov",
+        "Eliza- Beth Barnes",
+        "Emily Reif",
+        "Eric Hambro",
+        "Eric Li",
+        "Eric Sigler",
+        "Erica Moreira",
+        "Eval",
+        "Evan Morikawa",
+        "Faisal Azhar",
+        "Felipe Such",
+        "Fotios Chantzis",
+        "Gaurav Mishra",
+        "Gaurav Narang",
+        "Gautier Izacard",
+        "Girish Sas- Try",
+        "Girish Sastry",
+        "Greg Brockman",
+        "Gretchen Krueger",
+        "Guillaume Lample",
+        "Guy Gur-Ari",
+        "Harri Edwards",
+        "Heewoo Jun",
+        "Heidy Khlaaf",
+        "Henrique Ponde",
+        "Henryk Michalewski",
+        "Hongkun Dai",
+        "Hugo Touvron",
+        "Hyeontaek Lim",
+        "Hyung Chung",
+        "Igor Babuschkin",
+        "Ilya Sutskever",
+        "Isaac Cowhey",
+        "Jack Clark",
+        "Jacob Austin",
+        "Jacob Dean",
+        "Jacob Devlin",
+        "Jacob Hilton",
+        "James Bradbury",
+        "Jan Leike",
+        "Jared Ka- Plan",
+        "Jared Kaplan",
+        "Jason Le",
+        "Jason Wei",
+        "Jeff Huai Hsin Chi",
+        "Jeffrey Wu",
+        "Jerry Tworek",
+        "Jie Tang",
+        "Josh Achiam",
+        "Joshua Maynez",
+        "Joulin Grave",
+        "Karl Cobbe",
+        "Katherine Lee",
+        "Kathy Meier-Hellstern",
+        "Katie Mayer",
+        "Kensen Shi",
+        "Kenton Lee",
+        "Kevin Robinson",
+        "Kristina Toutanova",
+        "Le Hou",
+        "Liam Fe- Dus",
+        "Lukasz Kaiser",
+        "Maarten Bosma",
+        "Marie Pellat",
+        "Marie-Anne Lachaux",
+        "Mark Chen",
+        "Mark Diaz",
+        "Mark Omernick",
+        "Mateusz Litwin",
+        "Matthew Knight",
+        "Matthias Plappert",
+        "Melanie Subbiah",
+        "Meta Ai",
+        "Michael Collins",
+        "Michael Isard",
+        "Michael Petrov",
+        "Michele Catasta",
+        "Mikhail Pavlov",
+        "Miles Brundage",
+        "Ming-Wei Chang",
+        "Mira Murati",
+        "Mirac Dai",
+        "Mohammad Bavarian",
+        "Mostafa Dehghani",
+        "Naman Goyal",
+        "Nan Du",
+        "Nicholas Joseph",
+        "Nick Ryder",
+        "Nikolas Tezak",
+        "Noam Shazeer",
+        "Oleksandr Polozov",
+        "Oliveira Pinto",
+        "Oren Etzioni",
+        "Orhan Firat",
+        "Oyvind Tafjord",
+        "Pamela Mishkin",
+        "Parker Barnes",
+        "Parker Schuh",
+        "Paul Barham",
+        "Pengcheng Yin",
+        "Peter Clark",
+        "Philippe Tillet",
+        "Prafulla Dhariwal",
+        "Pranav Shyam",
+        "Qiming Yuan",
+        "Quoc Zhou",
+        "Raul Puri",
+        "Reiichiro Nakano",
+        "Reiner Pope",
+        "Rewon Child",
+        "Ryan Sepassi",
+        "S Longpre",
+        "Sam Mc- Candlish",
+        "Sam Mccandlish",
+        "Sandhini Agarwal",
+        "Sanjay Ghe- Mawat",
+        "Sasha Tsvyashchenko",
+        "Scal",
+        "Scott Gray",
+        "Sebastian Gehrmann",
+        "Shane Shixiang",
+        "Shantanu Jain",
+        "Sharan Narang",
+        "Sharan Valter",
+        "Shivani Agrawal",
+        "Siddhartha Brahma",
+        "Slav Yu",
+        "Suchir Balaji",
+        "Sunipa Dev",
+        "Thanumalayan Sankara- Narayana Pillai",
+        "Thibaut Lavril",
+        "Timothee Lacroix",
+        "Toju Duke",
+        "Tom Brown",
+        "Tom Henighan",
+        "Tom Kwiatkowski",
+        "Tushar Khot",
+        "Vedant Misra",
+        "Vin- Odkumar Prabhakaran",
+        "Vincent Yu",
+        "Vineet Kosaraju",
+        "William Fedus",
+        "William Guss",
+        "William Saunders",
+        "Wojciech Zaremba",
+        "Won Chung",
+        "Xavier Garcia",
+        "Xavier Martinet",
+        "Xinyun Suzgun",
+        "Xuezhi Wang",
+        "Yanping Zhao",
+        "Yi Tay",
+        "Yuri Burda",
+        "Zhuyun Gu",
+        "Zongwei Zhou" ;
+    dc:description "We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community 1 ." ;
+    dc:identifier "2302.13971" ;
+    dc:title "LLaMA: Open and Efficient Foundation Language Models" ;
+    owl:sameAs <https://arxiv.org/abs/2302.13971> .
+
+<http://example.org/aikg/paper/2309.17421> a ex:Paper ;
+    ex:acknowledges <http://example.org/aikg/organization/Microsoft>,
+        <http://example.org/aikg/organization/OpenAI>,
+        <http://example.org/aikg/person/Gopi_K>,
+        <http://example.org/aikg/person/Gregory_Buehrer>,
+        <http://example.org/aikg/person/John_Montgomery>,
+        <http://example.org/aikg/person/Marco_Casalaina>,
+        <http://example.org/aikg/person/Misha_Bilenko>,
+        <http://example.org/aikg/person/Nguyen_Bach> ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Language_Models> ;
+    dc:creator "Chung-Ching Lin",
+        "Core Contributor",
+        "Jianfeng Wang",
+        "Kevin Lin",
+        "Lijuan Wang",
+        "Linjie Li",
+        "Microsoft Corporation",
+        "Zhengyuan Yang",
+        "Zicheng Liu",
+        "♠ Project Lead" ;
+    dc:description "Large multimodal models (LMMs) extend large language models (LLMs) with multi-sensory skills, such as visual understanding, to achieve stronger generic intelligence. In this paper, we analyze the latest model, GPT-4V(ision) [99-101, 1] 1 , to deepen the understanding of LMMs. The analysis focuses on the intriguing tasks that GPT-4V can perform, containing test samples to probe the quality and genericity of GPT-4V's capabilities, its supported inputs and working modes, and the effective ways to prompt the model. In our approach to exploring GPT-4V, we curate and organize a collection of carefully designed qualitative samples spanning a variety of domains and tasks. Observations from these samples demonstrate that GPT-4V's unprecedented ability in processing arbitrarily interleaved multimodal inputs and the genericity of its capabilities together make GPT-4V a powerful multimodal generalist system. Furthermore, GPT-4V's unique capability of understanding visual markers drawn on input images can give rise to new humancomputer interaction methods such as visual referring prompting. We conclude the report with in-depth discussions on the emerging application scenarios and the future research directions for GPT-4V-based systems. We hope that this preliminary exploration will inspire future research on the next-generation multimodal task formulation, new ways to exploit and enhance LMMs to solve real-world problems, and gaining better understanding of multimodal foundation models. Finally, we acknowledge that the model under our study is solely the product of OpenAI's innovative work, and they should be fully credited for its development. Please see the GPT-4V contributions paper [101]  for the authorship and credit attribution:  https://cdn.openai.com/contributions/gpt-4v.pdf ." ;
+    dc:identifier "2309.17421" ;
+    dc:title "The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)" ;
+    owl:sameAs <https://arxiv.org/abs/2309.17421> .
+
+<http://example.org/aikg/paper/2106.09685> a ex:Paper ;
+    ex:belongsToTopic <http://example.org/aikg/topic/Language_Models> ;
+    ex:similarTo <http://example.org/aikg/paper/2112.01573>,
+        <http://example.org/aikg/paper/2203.02155>,
+        <http://example.org/aikg/paper/2208.01618>,
+        <http://example.org/aikg/paper/2301.13688>,
+        <http://example.org/aikg/paper/2302.13971>,
+        <http://example.org/aikg/paper/2307.09288>,
+        <http://example.org/aikg/paper/2309.17421> ;
+    dc:creator "Edward Hu",
+        "Lu Wang",
+        "Phillip Wallis",
+        "Shean Wang",
+        "Weizhu Chen",
+        "Yelong Shen",
+        "Yuanzhi Li",
+        "Zeyuan Allen-Zhu" ;
+    dc:description "An important paradigm of natural language processing consists of large-scale pretraining on general domain data and adaptation to particular tasks or domains. As we pre-train larger models, full fine-tuning, which retrains all model parameters, becomes less feasible. Using GPT-3 175B as an example -deploying independent instances of fine-tuned models, each with 175B parameters, is prohibitively expensive. We propose Low-Rank Adaptation, or LoRA, which freezes the pretrained model weights and injects trainable rank decomposition matrices into each layer of the Transformer architecture, greatly reducing the number of trainable parameters for downstream tasks. Compared to GPT-3 175B fine-tuned with Adam, LoRA can reduce the number of trainable parameters by 10,000 times and the GPU memory requirement by 3 times. LoRA performs on-par or better than finetuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike adapters, no additional inference latency. We also provide an empirical investigation into rank-deficiency in language model adaptation, which sheds light on the efficacy of LoRA. We release a package that facilitates the integration of LoRA with PyTorch models and provide our implementations and model checkpoints for RoBERTa, DeBERTa, and GPT-2 at  https://github.com/microsoft/LoRA . * Equal contribution. 0 Compared to V1, this draft includes better baselines, experiments on GLUE, and more on adapter latency. 1 While GPT-3 175B achieves non-trivial performance with few-shot learning, fine-tuning boosts its performance significantly as shown in Appendix A." ;
+    dc:identifier "2106.09685" ;
+    dc:title "LORA: LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS" ;
+    owl:sameAs <https://arxiv.org/abs/2106.09685> .
+

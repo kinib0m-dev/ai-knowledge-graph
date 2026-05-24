@@ -1,0 +1,497 @@
+[
+  {
+    "id": "1207.0580",
+    "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1312.5602",
+    "title": "Playing Atari with Deep Reinforcement Learning",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1406.2661",
+    "title": "Generative Adversarial Nets",
+    "entities": {
+      "PER": [
+        "Fr\u00e9d\u00e9ric Bastien",
+        "Arnaud Bergeron",
+        "Ian Goodfellow"
+      ],
+      "ORG": [
+        "CIFAR",
+        "Canada Research Chairs",
+        "Compute Canada",
+        "Calcul Qu\u00e9bec",
+        "Les Trois Brasseurs"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1412.6980",
+    "title": "Published as a conference paper at ICLR 2015 ADAM: A METHOD FOR STOCHASTIC OPTIMIZATION",
+    "entities": {
+      "PER": [
+        "Ivo Danihelka",
+        "Tom Schaul",
+        "Adam",
+        "Kai Fan"
+      ],
+      "ORG": [
+        "Google Deepmind",
+        "Duke University"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1505.04597",
+    "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "entities": {
+      "PER": [],
+      "ORG": [
+        "Excellence Initiative",
+        "EXC",
+        "BMBF"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1506.01497",
+    "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1512.03385",
+    "title": "Deep Residual Learning for Image Recognition",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1706.03762",
+    "title": "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works. Attention Is All You Need",
+    "entities": {
+      "PER": [
+        "Nal Kalchbrenner",
+        "Stephan Gouws"
+      ],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1707.06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "entities": {
+      "PER": [
+        "Rocky Duan",
+        "Peter Chen"
+      ],
+      "ORG": [
+        "OpenAI"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1803.09010",
+    "title": "Datasheets for Datasets",
+    "entities": {
+      "PER": [
+        "Peter Bailey",
+        "Emily Bender",
+        "Yoshua Bengio",
+        "Sarah Bird",
+        "Sarah Brown",
+        "Steven Bowles",
+        "Joy Buolamwini",
+        "Amanda Casari",
+        "Eric Charran",
+        "Alain Couillault",
+        "Lukas Dauterman",
+        "Leigh Dodds",
+        "Miroslav Dud\u00edk",
+        "Michael Ekstrand",
+        "No\u00e9mie Elhadad",
+        "Michael Golebiewski",
+        "Nick Gonsalves",
+        "Martin Hansen",
+        "Andy Hickl",
+        "Michael Hoffman",
+        "Scott Hoogerwerf",
+        "Eric Horvitz",
+        "Mingjing Huang",
+        "Surya"
+      ],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "1810.04805",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2004.10934",
+    "title": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2005.12729",
+    "title": "IMPLEMENTATION MATTERS IN DEEP POLICY GRADIENTS: A CASE STUDY ON PPO AND TRPO",
+    "entities": {
+      "PER": [
+        "Chloe Hsu"
+      ],
+      "ORG": [
+        "NSF",
+        "Microsoft Corporation"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2005.14165",
+    "title": "Language Models are Few-Shot Learners",
+    "entities": {
+      "PER": [
+        "Ryan Lowe",
+        "Jakub Pachocki",
+        "Szymon Sidor",
+        "Greg Brockman",
+        "Michael Petrov",
+        "Brooke Chan",
+        "Chelsea Voss",
+        "David Luan",
+        "Irene Solaiman",
+        "Harrison Edwards",
+        "Yura Burda"
+      ],
+      "ORG": [
+        "OpenAI"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2006.11239",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "entities": {
+      "PER": [],
+      "ORG": [
+        "ON",
+        "NSF",
+        "Google",
+        "TensorFlow Research Cloud",
+        "TFRC"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2010.11929",
+    "title": "AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE",
+    "entities": {
+      "PER": [
+        "Andreas Steiner",
+        "Joan Puigcerver",
+        "Maxim Neumann",
+        "Dmitry Lepikhin",
+        "Aravindh Mahendran",
+        "Daniel Keysers",
+        "Mario Lu\u010di\u0107",
+        "Noam Shazeer",
+        "Ashish Vaswani",
+        "Colin Raffel"
+      ],
+      "ORG": [
+        "Google"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2103.00020",
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "entities": {
+      "PER": [
+        "Susan Zhang",
+        "Ishaan Gulrajani",
+        "Irene Solaiman",
+        "Miles Brundage",
+        "Gillian Hadfield"
+      ],
+      "ORG": [
+        "OpenAI"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2105.05233",
+    "title": "Diffusion Models Beat GANs on Image Synthesis",
+    "entities": {
+      "PER": [
+        "Alec Radford",
+        "Mark Chen",
+        "Pranav Shyam",
+        "Raul Puri"
+      ],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2106.09685",
+    "title": "LORA: LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2109.13916",
+    "title": "Unsolved Problems in ML Safety",
+    "entities": {
+      "PER": [
+        "Sidney Hough",
+        "Owain Evans",
+        "Collin Burns",
+        "Alex Tamkin",
+        "Mantas Mazeika",
+        "Kevin Liu",
+        "Jonathan Uesato",
+        "Steven Basart",
+        "Henry Zhu",
+        "D. Sculley",
+        "Mark Xu",
+        "Beth Barnes",
+        "Andreas Terzis",
+        "Florian Tram\u00e8r",
+        "Stella Biderman",
+        "Leo Gao",
+        "Jacob Hilton",
+        "Thomas Dietterich",
+        "."
+      ],
+      "ORG": [
+        "DH",
+        "NSF"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2112.01573",
+    "title": "FuseDream: Training-Free Text-to-Image Generation with Improved CLIP+GAN Space Optimization",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2112.10752",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "entities": {
+      "PER": [
+        "Lilian Weng",
+        "Jason Kwon",
+        "Boris Power",
+        "Che Chang",
+        "Josh Achiam",
+        "Steven Adler",
+        "Gretchen Krueger",
+        "Miles Brundage",
+        "Tyna Eloundou",
+        "Gillian Hadfield",
+        "Irene Soliaman",
+        "Christy Dennison",
+        "Daniel Ziegler",
+        "William Saunders",
+        "Beth Barnes",
+        "Cathy Yeh",
+        "Nick Cammaratta",
+        "Jonathan Ward",
+        "Matt Knight",
+        "Pranav Shyam",
+        "Alec Radford"
+      ],
+      "ORG": [
+        "OpenAI"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2204.05149",
+    "title": "The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",
+    "entities": {
+      "PER": [
+        "Emma Strubell",
+        "Christopher Berner",
+        "Ilya Sutskever",
+        "Dmitry Lepikhin",
+        "Zongwei Zhou"
+      ],
+      "ORG": [
+        "OpenAI",
+        "Microsoft",
+        "Google"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2208.01618",
+    "title": "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion",
+    "entities": {
+      "PER": [
+        "Yael Vinker",
+        "Roni Paiss",
+        "Haggai Maron",
+        "Tom Bagshaw",
+        "Omri Avrahami",
+        "Len Blavatnik",
+        "Blavatnik"
+      ],
+      "ORG": [
+        "BSF",
+        "ISF"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2212.08073",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "entities": {
+      "PER": [
+        "Paul Christiano",
+        "Maja Trebacz",
+        "Alex Tamkin",
+        "Daniela Amodei",
+        "Jarrah Bloomfield",
+        "Jamie Kerr",
+        "Timothy Telleen-Lawton",
+        "Jia Yuan Loke",
+        "Jeffrey Ladish",
+        "Rebecca Raible",
+        "Rune Kvist",
+        "Rob Gilson",
+        "Guro Khundadze",
+        "Filipe Dobreira",
+        "Sebastian Conybeare"
+      ],
+      "ORG": [
+        "Surge AI",
+        "Amazon MTurk",
+        "Upwork"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2301.13688",
+    "title": "The Flan Collection: Designing Data and Methods for Effective Instruction Tuning",
+    "entities": {
+      "PER": [
+        "Ed H Chi",
+        "Xinyun Chen",
+        "Colin Raffel"
+      ],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2302.13971",
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "entities": {
+      "PER": [
+        "Daniel Haziza",
+        "Francisco Massa",
+        "Jeremy Reizenstein",
+        "Artem Korenev",
+        "Patrick Labatut",
+        "Susan Zhang",
+        "Stephen Roller",
+        "Luca Wehrstedt",
+        "Vegard Mella",
+        "Pierre-Emmanuel Mazar\u00e9",
+        "Shubho Sengupta",
+        "Kalyan Saladi",
+        "Jane Yu",
+        "Yongyi Hu"
+      ],
+      "ORG": [
+        "xformers"
+      ],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2307.09288",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "entities": {
+      "PER": [],
+      "ORG": [],
+      "PROJECT": []
+    }
+  },
+  {
+    "id": "2309.17421",
+    "title": "The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)",
+    "entities": {
+      "PER": [
+        "Misha Bilenko",
+        "John Montgomery",
+        "Marco Casalaina",
+        "Gregory Buehrer",
+        "Nguyen Bach",
+        "Gopi K"
+      ],
+      "ORG": [
+        "OpenAI",
+        "Microsoft"
+      ],
+      "PROJECT": []
+    }
+  }
+]

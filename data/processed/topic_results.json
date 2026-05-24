@@ -1,0 +1,240 @@
+[
+  {
+    "id": "1207.0580",
+    "title": "Improving neural networks by preventing co-adaptation of feature detectors",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.4122715890407562
+    }
+  },
+  {
+    "id": "1312.5602",
+    "title": "Playing Atari with Deep Reinforcement Learning",
+    "topic": "Reinforcement Learning",
+    "scores": {
+      "score": 0.9129427075386047
+    }
+  },
+  {
+    "id": "1406.2661",
+    "title": "Generative Adversarial Nets",
+    "topic": "Generative Models",
+    "scores": {
+      "score": 0.7573351263999939
+    }
+  },
+  {
+    "id": "1412.6980",
+    "title": "Published as a conference paper at ICLR 2015 ADAM: A METHOD FOR STOCHASTIC OPTIMIZATION",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.37767294049263
+    }
+  },
+  {
+    "id": "1505.04597",
+    "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.6528337001800537
+    }
+  },
+  {
+    "id": "1506.01497",
+    "title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.23205381631851196
+    }
+  },
+  {
+    "id": "1512.03385",
+    "title": "Deep Residual Learning for Image Recognition",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.6087310314178467
+    }
+  },
+  {
+    "id": "1706.03762",
+    "title": "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works. Attention Is All You Need",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.2899618446826935
+    }
+  },
+  {
+    "id": "1707.06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "topic": "Reinforcement Learning",
+    "scores": {
+      "score": 0.9722757339477539
+    }
+  },
+  {
+    "id": "1803.09010",
+    "title": "Datasheets for Datasets",
+    "topic": null,
+    "scores": {}
+  },
+  {
+    "id": "1810.04805",
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "topic": "Language Models",
+    "scores": {
+      "score": 0.6178382635116577
+    }
+  },
+  {
+    "id": "2004.10934",
+    "title": "YOLOv4: Optimal Speed and Accuracy of Object Detection",
+    "topic": "Computer Vision",
+    "scores": {
+      "score": 0.237858384847641
+    }
+  },
+  {
+    "id": "2005.12729",
+    "title": "IMPLEMENTATION MATTERS IN DEEP POLICY GRADIENTS: A CASE STUDY ON PPO AND TRPO",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.2534443140029907
+    }
+  },
+  {
+    "id": "2005.14165",
+    "title": "Language Models are Few-Shot Learners",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.36814114451408386
+    }
+  },
+  {
+    "id": "2006.11239",
+    "title": "Denoising Diffusion Probabilistic Models",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.5422806143760681
+    }
+  },
+  {
+    "id": "2010.11929",
+    "title": "AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE",
+    "topic": "Computer Vision",
+    "scores": {
+      "score": 0.9590639472007751
+    }
+  },
+  {
+    "id": "2103.00020",
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "topic": "Computer Vision",
+    "scores": {
+      "score": 0.7816134095191956
+    }
+  },
+  {
+    "id": "2105.05233",
+    "title": "Diffusion Models Beat GANs on Image Synthesis",
+    "topic": "Computer Vision",
+    "scores": {
+      "score": 0.24829791486263275
+    }
+  },
+  {
+    "id": "2106.09685",
+    "title": "LORA: LOW-RANK ADAPTATION OF LARGE LAN-GUAGE MODELS",
+    "topic": "Language Models",
+    "scores": {
+      "score": 0.3742472529411316
+    }
+  },
+  {
+    "id": "2109.13916",
+    "title": "Unsolved Problems in ML Safety",
+    "topic": "AI Safety & Ethics",
+    "scores": {
+      "score": 0.284932941198349
+    }
+  },
+  {
+    "id": "2112.01573",
+    "title": "FuseDream: Training-Free Text-to-Image Generation with Improved CLIP+GAN Space Optimization",
+    "topic": "Generative Models",
+    "scores": {
+      "score": 0.3306022882461548
+    }
+  },
+  {
+    "id": "2112.10752",
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "topic": "Generative Models",
+    "scores": {
+      "score": 0.26183298230171204
+    }
+  },
+  {
+    "id": "2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "topic": "Language Models",
+    "scores": {
+      "score": 0.9075120091438293
+    }
+  },
+  {
+    "id": "2204.05149",
+    "title": "The Carbon Footprint of Machine Learning Training Will Plateau, Then Shrink",
+    "topic": "Optimization & Training",
+    "scores": {
+      "score": 0.3108643591403961
+    }
+  },
+  {
+    "id": "2208.01618",
+    "title": "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion",
+    "topic": "Language Models",
+    "scores": {
+      "score": 0.527402937412262
+    }
+  },
+  {
+    "id": "2212.08073",
+    "title": "Constitutional AI: Harmlessness from AI Feedback",
+    "topic": "Reinforcement Learning",
+    "scores": {
+      "score": 0.5296698808670044
+    }
+  },
+  {
+    "id": "2301.13688",
+    "title": "The Flan Collection: Designing Data and Methods for Effective Instruction Tuning",
+    "topic": "Generative Models",
+    "scores": {
+      "score": 0.41546157002449036
+    }
+  },
+  {
+    "id": "2302.13971",
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "topic": "Language Models",
+    "scores": {
+      "score": 0.7841261029243469
+    }
+  },
+  {
+    "id": "2307.09288",
+    "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+    "topic": "Language Models",
+    "scores": {
+      "score": 0.7145252823829651
+    }
+  },
+  {
+    "id": "2309.17421",
+    "title": "The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)",
+    "topic": "Language Models",
+    "scores": {
+      "score": 0.7348749041557312
+    }
+  }
+]
