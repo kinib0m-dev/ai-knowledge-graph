@@ -121,6 +121,17 @@ Outputs: `provenance/sample_run.ttl`
 
 ---
 
+## Running tests
+
+The project includes tests for the processed dataset, topic modeling results, NER results, similarity results, RDF Knowledge Graph and utility functions.
+
+To run the tests:
+
+```bash
+py -m pip install pytest rdflib requests SPARQLWrapper prov
+py -m pytest -q
+```
+
 ## Project structure
 
 ```
