@@ -238,7 +238,7 @@ If you use this software, please cite it using the metadata in [`CITATION.cff`](
 ```bibtex
 @software{aikg2026,
   title   = {AI/ML Research Knowledge Graph},
-  author  = {AI Research KG Group},
+  author  = {AI Research KG Group 8},
   year    = {2026},
   version = {0.1.0},
   url     = {https://github.com/kinib0m-dev/ai-knowledge-graph}
