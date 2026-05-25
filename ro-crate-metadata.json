@@ -1,0 +1,346 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.2/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "datePublished": "2026-05-25T17:33:44+00:00",
+            "description": "A reproducible open science pipeline that processes 30 landmark AI/ML papers, runs NLP models (NER, topic modelling, semantic similarity), and builds a Knowledge Graph in RDF. Built for the Open Science and AI in Research Software Engineering course at Universidad Politécnica de Madrid.",
+            "hasPart": [
+                {
+                    "@id": "papers.py"
+                },
+                {
+                    "@id": "process_grobid.py"
+                },
+                {
+                    "@id": "evaluate_models.py"
+                },
+                {
+                    "@id": "ner.py"
+                },
+                {
+                    "@id": "topics.py"
+                },
+                {
+                    "@id": "similarity.py"
+                },
+                {
+                    "@id": "build_kg.py"
+                },
+                {
+                    "@id": "generate_provenance.py"
+                },
+                {
+                    "@id": "generate_rocrate.py"
+                },
+                {
+                    "@id": "gold_standard.json"
+                },
+                {
+                    "@id": "papers.json"
+                },
+                {
+                    "@id": "model_evaluation.json"
+                },
+                {
+                    "@id": "ner_results.json"
+                },
+                {
+                    "@id": "topic_results.json"
+                },
+                {
+                    "@id": "similarity_results.json"
+                },
+                {
+                    "@id": "knowledge_graph.ttl"
+                },
+                {
+                    "@id": "sample_run.ttl"
+                },
+                {
+                    "@id": "pyproject.toml"
+                },
+                {
+                    "@id": "docker-compose.yml"
+                },
+                {
+                    "@id": "README.md"
+                }
+            ],
+            "keywords": [
+                "knowledge graph",
+                "RDF",
+                "NLP",
+                "NER",
+                "topic modelling",
+                "semantic similarity",
+                "open science",
+                "HuggingFace",
+                "ArXiv"
+            ],
+            "license": "https://spdx.org/licenses/MIT",
+            "name": "AI/ML Research Knowledge Graph",
+            "version": "0.1.0"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.2"
+            }
+        },
+        {
+            "@id": "https://github.com/kinib0m-dev",
+            "@type": "Person",
+            "name": "AI Research KG Group"
+        },
+        {
+            "@id": "papers.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Download PDFs from ArXiv",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/"
+            }
+        },
+        {
+            "@id": "process_grobid.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Parse TEI XML from Grobid and extract metadata",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/"
+            }
+        },
+        {
+            "@id": "evaluate_models.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Evaluate NLP models against gold standard",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/"
+            }
+        },
+        {
+            "@id": "ner.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Named entity recognition on acknowledgements",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/"
+            }
+        },
+        {
+            "@id": "topics.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Zero-shot topic classification",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/"
+            }
+        },
+        {
+            "@id": "similarity.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Pairwise semantic similarity computation",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/"
+            }
+        },
+        {
+            "@id": "build_kg.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Build and serialise the RDF Knowledge Graph",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/"
+            }
+        },
+        {
+            "@id": "generate_provenance.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Generate PROV-O provenance record",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/"
+            }
+        },
+        {
+            "@id": "generate_rocrate.py",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Generate RO-Crate metadata",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/"
+            }
+        },
+        {
+            "@id": "gold_standard.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Manual annotations for 10 papers"
+        },
+        {
+            "@id": "papers.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Extracted paper metadata (30 papers)"
+        },
+        {
+            "@id": "model_evaluation.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "NLP model evaluation results"
+        },
+        {
+            "@id": "ner_results.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "NER results for all 30 papers"
+        },
+        {
+            "@id": "topic_results.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Topic classification results"
+        },
+        {
+            "@id": "similarity_results.json",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "Similarity results for all paper pairs"
+        },
+        {
+            "@id": "knowledge_graph.ttl",
+            "@type": "File",
+            "author": [
+                {
+                    "@id": "https://github.com/kinib0m-dev"
+                }
+            ],
+            "description": "RDF Knowledge Graph in Turtle format"
+        },
+        {
+            "@id": "sample_run.ttl",
+            "@type": [
+                "File"
+            ],
+            "conformsTo": {
+                "@id": "https://www.w3.org/TR/prov-o/"
+            },
+            "description": "PROV-O record of one full pipeline execution"
+        },
+        {
+            "@id": "pyproject.toml",
+            "@type": "File",
+            "description": "Poetry project and dependency configuration"
+        },
+        {
+            "@id": "docker-compose.yml",
+            "@type": "File",
+            "description": "Docker Compose configuration for Fuseki"
+        },
+        {
+            "@id": "README.md",
+            "@type": "File",
+            "description": "Project documentation"
+        }
+    ]
+}

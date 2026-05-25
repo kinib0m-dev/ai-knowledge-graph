@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "AI/ML Research Knowledge Graph"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+version: "0.1.0"
+date-released: "2026-05-27"
+license: MIT
+repository-code: "https://github.com/kinib0m-dev/ai-knowledge-graph"
+abstract: >
+  A reproducible open science pipeline that processes 30 landmark AI/ML papers,
+  runs NLP models (NER, topic modelling, semantic similarity), and builds a
+  Knowledge Graph in RDF. Includes a Streamlit demo app for interactive exploration.
+keywords:
+  - knowledge graph
+  - RDF
+  - NLP
+  - named entity recognition
+  - topic modelling
+  - semantic similarity
+  - open science
+  - HuggingFace
+  - ArXiv
+authors:
+  - name: "AI Research KG Group"
+    affiliation: "Universidad Politécnica de Madrid"

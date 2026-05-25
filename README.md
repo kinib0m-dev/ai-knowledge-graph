@@ -22,8 +22,8 @@ PDFs → Grobid → NLP models (HuggingFace) → RDF Knowledge Graph → Fuseki 
 
 **External enrichment:**
 
-- [OpenAlex API](https://openalex.org/) — citation count, publication year, venue, OpenAlex ID
-- [Wikidata SPARQL](https://query.wikidata.org/) — country and website of organisations
+- [OpenAlex API](https://openalex.org/). Citation count, publication year, venue, OpenAlex ID
+- [Wikidata SPARQL](https://query.wikidata.org/). Country and website of organisations
 
 ---
 
@@ -56,7 +56,7 @@ cp .env.example .env
 
 All steps assume you are inside the project root with the Poetry environment active (`poetry shell` or prefix each command with `poetry run`).
 
-### 1. Start Grobid
+### 1. Start Grobid (different terminal)
 
 ```bash
 docker run --rm -p 8070:8070 lfoppiano/grobid:0.8.2
@@ -217,3 +217,30 @@ Models were evaluated against a gold standard of 10 manually annotated papers. S
 ## License
 
 MIT
+
+---
+
+## Related metadata files
+
+| File                        | Purpose                                                            |
+| --------------------------- | ------------------------------------------------------------------ |
+| `CITATION.cff`              | Citation metadata — used by GitHub's "Cite this repository" button |
+| `codemeta.json`             | Software metadata in CodeMeta schema                               |
+| `ro-crate-metadata.json`    | RO-Crate research object wrapping all pipeline artifacts           |
+| `provenance/sample_run.ttl` | PROV-O record of one full pipeline execution                       |
+
+---
+
+## Citation
+
+If you use this software, please cite it using the metadata in [`CITATION.cff`](CITATION.cff):
+
+```bibtex
+@software{aikg2026,
+  title   = {AI/ML Research Knowledge Graph},
+  author  = {AI Research KG Group},
+  year    = {2026},
+  version = {0.1.0},
+  url     = {https://github.com/kinib0m-dev/ai-knowledge-graph}
+}
+```
