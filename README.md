@@ -52,6 +52,19 @@ cp .env.example .env
 
 ---
 
+## Dockerization
+
+This project includes a **Dockerfile** to run the Python + Streamlit application in a reproducible containerized environment.
+
+### Requirements
+- Docker (Engine) installed
+
+### Building the image
+
+```bash
+docker build -t ai-knowledge-graph .
+```
+
 ## Running the pipeline
 
 All steps assume you are inside the project root with the Poetry environment active (`poetry shell` or prefix each command with `poetry run`).
@@ -157,6 +170,7 @@ ai-knowledge-graph/
 │   └── sample_run.ttl          # PROV-O record of one pipeline execution
 ├── tests/
 ├── docker-compose.yml
+├── Dockerfile
 ├── pyproject.toml
 └── ro-crate-metadata.json      # RO-Crate research object metadata
 ```
